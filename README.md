@@ -1,13 +1,19 @@
 # covid19-project
-Project Title: Covid 19 cases impact on ……(state name) in USA 
+Project Title: Analysis of Covid-19 by State
 Name of Group: Pandemic Solvers
 Team Members: Dasa Simova, Joshua Pohl, Melissa Diep, Shuchi Khandelwal, Paul Shelffo
+
+
 Project Description/Outline:
-Our group is looking to analyze impact of Covid 19 on (name of )state, county in USA. We will take charts and data  from cdc , census, bea, coividactnow site. We will combine these lists with the Covidactnow API and data from other database to get additional attribute information about the effect of covid 19 on various age groups, income groups. We will compare how various factors effected population Our final analysis will compare………..
+Our group is looking to analyze the number of Covid-19 cases in the US by state, and the correlation that population size and income has had in the number of cases per state.
+
+
 Data sources:
 - Data.cdc.gov
     -Description
-        -
+          -Data sets includes data and metrics for cases (actual and new cases), vaccination (actual vaccines completed, administered), test (positive test, negative test), hospitalization (actual hospital beds), and death (cumulative death).
+    -Data can be retrieved by states. 
+    -Data set for NJ, time series has 11 319 entries, by counties. 
 
     -Uses: 
 -census.gov
@@ -23,11 +29,12 @@ Data sources:
         -
     -Use: 
 Research Questions to Ask:
-- Which county was most impacted by pandemic?
+- Which state was has the most and least number of Covid-19 cases?
     - cases per month by state/county?
     - cases by age group?
     - cases by state/county/population?
     - cases by state/county average income?
+
 
 Rough Breakdown of Tasks:
 -Get API Key for covidactnow
