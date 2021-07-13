@@ -1,0 +1,1 @@
+https://api.covidactnow.org/v2/county/NJ.json?apiKey=d6fd0fdbbd0149cf820d548ad1703848
