@@ -5,7 +5,7 @@ Team Members: Dasa Simova, Joshua Pohl, Melissa Diep, Shuchi Khandelwal, Paul Sh
 
 
 Project Description/Outline:
-Our group is looking to analyze the number of Covid-19 cases in the US by state, and the correlation that population size and income has had in the number of cases per state.
+Our group is looking to analyze the number of Covid-19 cases in NJ by county, and the correlation that population size, location, and income has had in the number of cases per NJ county.
 
 
 Data sources:
@@ -17,8 +17,9 @@ Data sources:
 
     -Uses: 
 -census.gov
-    -Description: 
-        -
+    -Description:
+      
+      -department by health
     -Use: 
 -bea.gov
     -Description:
