@@ -39,17 +39,18 @@ Rough Breakdown of Tasks:
     -ideas:x-axis is  y-axis is 
  
 Covid Act Now API
-Data sets includes data and metrics for cases (actual and new cases), vaccination (actual vaccines completed, administered), test (positive test, negative test), hospitalization (actual hospital beds), and death (cumulative death).
-Data can be retrieved by states. 
-Data set for NJ, time series has 11 319 entries, by counties. 
-*we need to find API about age and COVID analysis
+    -Data sets includes data and metrics for cases (actual and new cases), vaccination (actual vaccines completed, administered), test (positive test, negative test), hospitalization (actual hospital beds), and death (cumulative death).
+    -Data can be retrieved by states. 
+    -Data set for NJ, time series has 11 319 entries, by counties. 
+    *we need to find API about age and COVID analysis
 
 Census API
-we need some information on the states /state/county level about average income, and other stats about wealth, education level 
+    -we need some information on the states /state/county level about average income, and other stats about wealth, education level 
+
 Age statistics -
 
 Question / problems:
--	Are we safe -: do a vaccination and new cases relate?
--	Can linear regression be used to predict or describe COVID 19 over time (years 2020, 2021) based on death rate, vaccination, income/wealth, education level
--	How NJ vs state in USA can be positioned (statistics over data)
+    -	Are we safe -: do a vaccination and new cases relate?
+    -	Can linear regression be used to predict or describe COVID 19 over time (years 2020, 2021) based on death rate, vaccination, income/wealth, education level
+    -	How NJ vs state in USA can be positioned (statistics over data)
 
