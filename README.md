@@ -5,60 +5,31 @@ Team Members: Dasa Simova, Joshua Pohl, Melissa Diep, Shuchi Khandelwal, Paul Sh
 
 
 Project Description/Outline:
-Our group is looking to analyze the number of Covid-19 cases in NJ by county, and the correlation that population size, location, and income has had in the number of cases per NJ county.
+Our group is looking to analyze the number of Covid-19 cases in NJ by county, and the correlation that population size, location, and vaccinations has had in the number of cases per NJ county.
 
-
-Data sources:
-- Data.cdc.gov
-    -Description
-          -Data sets includes data and metrics for cases (actual and new cases), vaccination (actual vaccines completed, administered), test (positive test, negative test), hospitalization (actual hospital beds), and death (cumulative death).
-    -Data can be retrieved by states. 
-    -Data set for NJ, time series has 11 319 entries, by counties. 
-
-    -Uses: 
--census.gov
-    -Description:
-      
-      -department by health
-    -Use: 
--bea.gov
-    -Description:
-        -
-    -Use: 
--www.api.covidactnow.org
-    -Description
-        -
-    -Use: 
 Research Questions to Ask:
-- Which state was has the most and least number of Covid-19 cases?
-    - cases per month by state/county?
-    - cases by age group?
-    - cases by state/county/population?
-    - cases by state/county average income?
+- Which county was has the most and least number of Covid-19 cases?
+            -Hypothesis: most populated county has the most number of cases
+- What is the correlation between number of cases and hospitilizations?
+            - Hypothesis: very correlated
+- What is the correlation between # of vaccinations and # of cases?
+            - Hypothesis: very correlated
+- What is the correlation between proximity to NY and covid?
+            - Hypothesis: closer to NY has more cases
 
-
-Rough Breakdown of Tasks:
--Get API Key for covidactnow
--Get Datasets in csv 
-  -Get Dataset as per county/state
-
--Do  Analysis to get a 
--Answer Research Questions using visualizations
-    -ideas:x-axis is  y-axis is 
- 
-Covid Act Now API
-    -Data sets includes data and metrics for cases (actual and new cases), vaccination (actual vaccines completed, administered), test (positive test, negative test), hospitalization (actual hospital beds), and death (cumulative death).
-    -Data can be retrieved by states. 
-    -Data set for NJ, time series has 11 319 entries, by counties. 
-    *we need to find API about age and COVID analysis
-
-Census API
-    -we need some information on the states /state/county level about average income, and other stats about wealth, education level 
-
-Age statistics -
-
-Question / problems:
-    -	Are we safe -: do a vaccination and new cases relate?
-    -	Can linear regression be used to predict or describe COVID 19 over time (years 2020, 2021) based on death rate, vaccination, income/wealth, education level
-    -	How NJ vs state in USA can be positioned (statistics over data)
-
+Data sources (can extract NJ by counties):
+- https://data.cdc.gov/resource/n8mc-b4w4.json?res_state=NJ
+    -Use: metrics for # of cases, # of hospitalizations, # of 
+-www.census.gov
+    -Use: can find the population data here      
+-www.api.covidactnow.org
+    -Use: Can get # of vaccinations 
+-www.google.com/maps
+    -Use: distance from each county to NY
+  
+Visualization will include:
+    - We will show linear regression (3-4 total) line graphs to show correlation for each of our research questions
+    - Bar chart to show highest to least number of cases by county
+    - Pie chart to show % of total vaccinations by county
+    -etc.
+  
