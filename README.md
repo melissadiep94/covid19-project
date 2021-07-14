@@ -5,7 +5,7 @@
 
 
 ## Project Description/Outline:
-Our group is looking to analyze the number of Covid-19 cases in NJ by county, and the correlation that population size, location, and vaccinations has had in the number of cases per NJ county.
+* Our group is looking to analyze the number of Covid-19 cases in NJ by county, and the correlation that population size, location, and vaccinations has had in the number of cases per NJ county.
 
 ## Research Questions to Ask:
 * Which county has the most and least number of Covid-19 cases?
