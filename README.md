@@ -10,7 +10,7 @@ Our group is looking to analyze the number of Covid-19 cases in NJ by county, an
 ## Research Questions to Ask:
 * Which county has the most and least number of Covid-19 cases?
     - Hypothesis: most populated county has the most number of cases
-* What is the correlation between number of cases and hospitilizations?
+* What is the correlation between number of cases and hospitalizations?
     - Hypothesis: very correlated
 * What is the correlation between # of vaccinations and # of cases?
     - Hypothesis: very correlated
