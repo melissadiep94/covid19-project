@@ -54,8 +54,8 @@
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/LinRegression_population_vs_num_June21_cases.PNG?raw=true)
 
-    - Population and Cases (June 2021)Population and Cumulative Cases (as of 7-15-21)
-    - Population and Cases (June 2021)Hospitalizations and Cases (June 2021)
+   - Population and Cases (June 2021)Population and Cumulative Cases (as of 7-15-21)
+   - Population and Cases (June 2021)Hospitalizations and Cases (June 2021)
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/LinRegression_hosp_vs_num_June21_cases.PNG?raw=true)
 
