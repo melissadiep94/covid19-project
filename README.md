@@ -26,7 +26,7 @@
     - Use: Can get # of vaccinations 
 
 
-##CDC Data - Cleaning up the Data & Initial Visualizations
+## CDC Data - Cleaning up the Data & Initial Visualizations
 1. First, we sourced data from CDC that includes the number of Covid-19 cases in NJ by county by month.
 2. To make the data size smaller, we filtered for June 2021 as our sample, and dropped other data not related to the research questions 
 3. We created a bar graph to show the number of Covid-19 cases by county and ordered from most cases to least cases
