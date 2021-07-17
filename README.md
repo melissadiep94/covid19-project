@@ -45,9 +45,9 @@
 
 ### IV. USAfacts
 
-### Vaccination Data
+### V. Vaccination Data
 
-### III. Consolidated Data (CDC + USAfacts + Population data) / Additional Visualizations
+## Consolidated Data (CDC + USAfacts + Population data) / Additional Visualizations
 1. In preparation for linear regression visualiations, we merged our data sources.
 2. Then, we created a panda dataframe visualization in descending order from largest to smallest population size.
 3. We outputted linear regression to show correlation betweem:
