@@ -18,7 +18,7 @@
     - Hypothesis: very correlated
 
 ## Data sources:
-1. https://data.cdc.gov/resource/n8mc-b4w4.json?res_state=NJ
+1. https://data.cdc.gov/resource/n8mc-b4w4.json?
     - Use: metrics for # of cases, # of hospitalizations 
 2. www.census.gov
     - Use: can find the population data here      
@@ -27,9 +27,9 @@
 
 
 ## CDC Data - Cleaning up the Data & Initial Visualizations
-1. First, we sourced data from CDC that includes the number of Covid-19 cases in NJ by county by month.
-2. To make the data size smaller, we filtered for June 2021 as our sample, and dropped other data not related to the research questions 
-3. We created a bar graph to show the number of Covid-19 cases by county and ordered from most cases to least cases
+1. First, we sourced the CDC API which includes the number of Covid-19 cases in NJ by county by month.
+2. To make the data size smaller, we filtered for June 2021 as our sample for analysis. Per the API documentation provided, the new url became: https://data.cdc.gov/resource/n8mc-b4w4.json?res_state=NJ&case_month=2021-06&$limit=20000. We also dropped fields that were unrelated to the research questions.
+4. We created a bar graph to show the number of Covid-19 cases by county and ordered from most cases to least cases
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/CDC_num_cases_NJ_June%202021.PNG?raw=true)
 
