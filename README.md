@@ -1,4 +1,4 @@
-## Project Title: Analysis of Covid-19 in NJ
+## Project Title: Analysis of Covid-19 in NJ:
 * Name of Group: Pandemic Solvers
 * Team Members: Dasa Simova, Joshua Pohl, Melissa Diep, Shuchi Khandelwal, Paul Shelffo
 
@@ -15,7 +15,7 @@
 4. What is the correlation between age and # of cases?
     - Hypothesis: very correlated
 
-## Data sources:
+## Data Sources:
 1.  https://data.cdc.gov/resource/n8mc-b4w4.json?
     - Use: metrics for # of cases, # of hospitalizations by NJ county and by month 
 2.  https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/state/new-jersey
