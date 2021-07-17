@@ -5,7 +5,7 @@
 
 
 ## Project Description/Outline:
-* Our group is looking to analyze the number of Covid-19 cases in NJ by county, and the correlation that population size, location, and vaccinations has had in the number of cases per NJ county.
+* Our group wanted to analyze the # of Covid-19 cases in NJ by county, and the correlation that population size, # of hospitalizations, # of vaccinations, and age has had in the number of cases per NJ county.
 
 ## Research Questions:
 1. What is the correlation between population size and # of cases?
