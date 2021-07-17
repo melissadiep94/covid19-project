@@ -16,11 +16,13 @@
     - Hypothesis: very correlated
 
 ## Data sources:
-1. https://data.cdc.gov/resource/n8mc-b4w4.json?
-    - Use: metrics for # of cases, # of hospitalizations 
-2. www.census.gov
+1.  https://data.cdc.gov/resource/n8mc-b4w4.json?
+    - Use: metrics for # of cases, # of hospitalizations by NJ county and by month 
+2.  https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/state/new-jersey
+    - Use: shows cumulative # of Covid-19 cases by NJ county
+4.  www.census.gov
     - Use: can find the population data here      
-3. www.api.covidactnow.org
+5. www.api.covidactnow.org
     - Use: Can get # of vaccinations 
 
 
