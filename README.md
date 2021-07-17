@@ -55,8 +55,11 @@
    * Population and Cumulative Cases (as of 7-15-21)
    * Hospitalizations and Cases (June 2021)
 
+
 ## Conclusion
 1. Research Q1 - Bar graphs and linear regressions support that there is strong correlation between population size and cases.
    * We can see from the bar graphs and consolidated panda dataframe that the most populated counties generally have the most # of cases
    * Linear regression shows a strong positive correlation between population size and cases
-3. Research Q2 - Looks like there is strong correlation between hospitalizations and cases, since the counties with the most # of hospitalizations generally have the most # of cases
+3. Research Q2 - Looks like there is a moderate correlation between hospitalizations and cases
+   *  We can see from the bar graph and consolidated panda dataframe that counties with the fewest # of cases have the low # of hospitalizations (i.e. Salem), however it is a   bit unexpected that Passaic has the most # of hospitalizations at 40, since 4 other counties had more # of cases. Other factors must have contributed to their high # of hospitalizations.
+   *  Also, the linear regression shows a moderate corrlation with an r-squared of 0.62. 
