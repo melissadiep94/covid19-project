@@ -30,11 +30,10 @@
 ### I. CDC Data (June '21 data):
 1. First, we sourced the CDC API which includes the # of cases in NJ by county by month.
 2. To make the data size smaller, we filtered for June '21 as our sample for analysis. Per the API documentation provided, the new url became: https://data.cdc.gov/resource/n8mc-b4w4.json?res_state=NJ&case_month=2021-06&$limit=20000. We also dropped fields that were unrelated to the research questions.
-3. We created a bar graph to show the # of June '21 cases by county and ordered from most cases to least cases.
+3. We created a bar graph to show the # of June '21 hospitalizations and cases by county and ordered from most cases to least cases.
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/CDC_num_cases_NJ_June%202021.PNG?raw=true)
 
-4. We created a bar graph to show the # of June '21 hospitalizations by county and ordered from most cases to least hospitalizations.
 
 ### II. Population Data:
 1. The Census API includes the total population size by county as of 2019, which was the most up to date free data available.
@@ -52,8 +51,13 @@
 2. Then, we created a panda dataframe visualization in descending order from largest to smallest population size.
 3. We outputted visualizations to show correlation between:
    * Population and Cases (June 2021)
+
+![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/LinRegression_population_vs_num_June21_cases.PNG?raw=true)
+
    * Population and Cumulative Cases (as of 7-15-21)
    * Hospitalizations and Cases (June 2021)
+
+![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/LinRegression_hosp_vs_num_June21_cases.PNG?raw=true)
 
 
 ## Conclusion
@@ -61,5 +65,5 @@
    * We can see from the bar graphs and consolidated panda dataframe that the most populated counties generally have the most # of cases
    * Linear regression shows a strong positive correlation between population size and cases
 3. Research Q2 - Looks like there is a moderate correlation between hospitalizations and cases
-   *  We can see from the bar graph and consolidated panda dataframe that counties with the fewest # of cases have the low # of hospitalizations (i.e. Salem), however it is a   bit unexpected that Passaic has the most # of hospitalizations at 40, since 4 other counties had more # of cases. Other factors must have contributed to their high # of hospitalizations.
-   *  Also, the linear regression shows a moderate corrlation with an r-squared of 0.62. 
+   *  We can see from the bar graph and consolidated panda dataframe that counties with the fewest # of cases have the lowest # of hospitalizations (i.e. Salem), however it is a   bit unexpected that Passaic has the most # of hospitalizations at 40, since 4 other counties had more # of cases. Other factors must have contributed to Passaic's high # of hospitalizations.
+   *  Also, the linear regression shows a moderate correlation with an r-squared of 0.62. 
