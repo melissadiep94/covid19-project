@@ -55,7 +55,7 @@
    * Population and Cumulative Cases (as of 7-15-21)
    * Hospitalizations and Cases (June 2021)
 
-### Conclusion
+## Conclusion
 1. Research Q1 - Bar graphs and linear regressions support that there is strong correlation between population size and cases.
    * We can see from the bar graphs and consolidated panda dataframe that the most populated counties generally have the most # of cases
    * Linear regression shows a strong positive correlation between population size and cases
