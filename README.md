@@ -34,7 +34,7 @@
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/CDC_num_cases_NJ_June%202021.PNG?raw=true)
 
-4. We created a bar graph to show the # of June '21 hispitalizations by county and ordered from most cases to least hospitalizations.
+4. We created a bar graph to show the # of June '21 hospitalizations by county and ordered from most cases to least hospitalizations.
 
 ### II. Population Data:
 1. The Census API includes the total population size by county as of 2019, which was the most up to date free data available.
