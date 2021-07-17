@@ -34,7 +34,7 @@
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/CDC_hosp_and_num_cases_NJ_June%202021.png?raw=true)
 
-### II. USAfacts
+### II. USAfacts Data
 
 ### III. Population Data
 1. The Census API includes the total population size by county as of 2019, which was the most up to date free data available.
