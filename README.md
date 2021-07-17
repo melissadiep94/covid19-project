@@ -51,9 +51,9 @@
 1. In preparation for linear regression visualiations, we merged our data sources.
 2. Then, we created a panda dataframe visualization in descending order from largest to smallest population size.
 3. We outputted linear regression to show correlation betweem:
-   * Population and # of Cases (June 2021)
-   * Population and Cumulative # of Cases (as of 7-15-21)
-   * # of Hospitalizations and # of Cases (June 2021)
+   * Population and Cases (June 2021)
+   * Population and Cumulative Cases (as of 7-15-21)
+   * Hospitalizations and Cases (June 2021)
 
 ### Conclusion
 1. Research Q1 - Bar graphs and linear regressions support that there is strong correlation between population size and cases.
