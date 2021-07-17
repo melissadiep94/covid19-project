@@ -48,9 +48,9 @@
 ### V. Vaccination Data
 
 ## Consolidated Data (CDC + USAfacts + Population data) / Additional Visualizations
-1. In preparation for linear regression visualiations, we merged our data sources.
+1. In preparation for further visualiations to show if there is correlation, we merged our data sources.
 2. Then, we created a panda dataframe visualization in descending order from largest to smallest population size.
-3. We outputted linear regression to show correlation betweem:
+3. We outputted visualizations to show correlation between:
    * Population and Cases (June 2021)
    * Population and Cumulative Cases (as of 7-15-21)
    * Hospitalizations and Cases (June 2021)
