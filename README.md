@@ -41,4 +41,5 @@
 
 ### Initial Hypothesis (Research Q1) : Looks like there is strong correlation, since the most populated counties generally have the most num of June '21 cases
 1. To prove this hypothesis, we merged the data in preparation for a linear regression visualization.
-2. 
+2. We outputted a panda dataframe visualization, in descending order from largest to smallest population size.
+3. 
