@@ -21,9 +21,9 @@
 2.  https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/state/new-jersey
     - Use: shows cumulative # of Covid-19 cases by NJ county
 4.  www.census.gov
-    - Use: can find the population data here      
+    - Use: population data for NJ by county      
 5. www.api.covidactnow.org
-    - Use: Can get # of vaccinations 
+    - Use: metrics for vaccinations 
 
 
 ## Cleaning up the Data & Initial Visualizations
