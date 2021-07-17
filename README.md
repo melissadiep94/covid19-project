@@ -28,9 +28,9 @@
 
 ## Cleaning up the Data & Initial Visualizations:
 ### I. CDC Data:
-1. First, we sourced the CDC API which includes the number of Covid-19 cases in NJ by county by month.
+1. First, we sourced the CDC API which includes the # of cases in NJ by county by month.
 2. To make the data size smaller, we filtered for June '21 as our sample for analysis. Per the API documentation provided, the new url became: https://data.cdc.gov/resource/n8mc-b4w4.json?res_state=NJ&case_month=2021-06&$limit=20000. We also dropped fields that were unrelated to the research questions.
-4. We created a bar graph to show the number of June '21 Covid-19 cases by county and ordered from most cases to least cases
+4. We created a bar graph to show the # of June '21 cases by county and ordered from most cases to least cases.
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/CDC_num_cases_NJ_June%202021.PNG?raw=true)
 
