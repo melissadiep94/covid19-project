@@ -3,7 +3,7 @@
 * Team Members: Dasa Simova, Joshua Pohl, Melissa Diep, Shuchi Khandelwal, Paul Shelffo
 
 ## Project Description/Outline:
-* Our group wanted to analyze the # of Covid-19 cases in NJ by county, and the correlation that population size, # of hospitalizations, # of vaccinations, and age has had in the number of cases per NJ county.
+* Our team wanted to analyze the # of Covid-19 cases in NJ by county, and the correlation that population size, # of hospitalizations, # of vaccinations, and age has had in the number of cases per NJ county.
 
 ## Research Questions:
 1. What is the correlation between population size and # of cases?
@@ -27,7 +27,7 @@
 
 
 ## Cleaning up the Data & Initial Visualizations:
-### I. CDC Data:
+### I. CDC Data (June '21 data):
 1. First, we sourced the CDC API which includes the # of cases in NJ by county by month.
 2. To make the data size smaller, we filtered for June '21 as our sample for analysis. Per the API documentation provided, the new url became: https://data.cdc.gov/resource/n8mc-b4w4.json?res_state=NJ&case_month=2021-06&$limit=20000. We also dropped fields that were unrelated to the research questions.
 4. We created a bar graph to show the # of June '21 cases by county and ordered from most cases to least cases.
