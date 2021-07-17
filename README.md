@@ -6,9 +6,9 @@
 * Our team wanted to analyze the # of Covid-19 cases in NJ by county, and the correlation that population size, # of hospitalizations, # of vaccinations, and age has had in the number of cases per NJ county.
 
 ## Research Questions:
-1. What is the correlation between population size and # of cases?
+1. What is the correlation between # of hospitalizations and # of cases?
     - Hypothesis: very correlated
-2. What is the correlation between # of hospitalizations and # of cases?
+2. What is the correlation between population size and # of cases?
     - Hypothesis: very correlated
 3. What is the correlation between # of vaccinations and # of cases?
     - Hypothesis: very correlated
@@ -30,9 +30,11 @@
 ### I. CDC Data (June '21 data):
 1. First, we sourced the CDC API which includes the # of cases in NJ by county by month.
 2. To make the data size smaller, we filtered for June '21 as our sample for analysis. Per the API documentation provided, the new url became: https://data.cdc.gov/resource/n8mc-b4w4.json?res_state=NJ&case_month=2021-06&$limit=20000. We also dropped fields that were unrelated to the research questions.
-4. We created a bar graph to show the # of June '21 cases by county and ordered from most cases to least cases.
+3. We created a bar graph to show the # of June '21 cases by county and ordered from most cases to least cases.
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/CDC_num_cases_NJ_June%202021.PNG?raw=true)
+
+4. We created a bar graph to show the # of June '21 hispitalizations by county and ordered from most cases to least hospitalizations.
 
 ### II. Population Data:
 1. First, we sourced the Census API which includes the total population size by county as of 2019, which was the most up to date free data available.
@@ -41,7 +43,8 @@
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/Census_population_size_NJ_June%202021.PNG?raw=true)
 
-### Initial Hypothesis (Research Q1) : Looks like there is strong correlation, since the most populated counties generally have the most num of June '21 cases
-1. To prove this hypothesis, we merged the data in preparation for a linear regression visualization.
-2. We outputted a panda dataframe visualization, in descending order from largest to smallest population size.
+### Initial Hypothesis (Research Q1) : Looks like there is strong correlation, since the counties with the most # of hispitalizations generally have the most # of cases
+### Initial Hypothesis (Research Q2) : Looks like there is strong correlation, since the most populated counties generally have the most num of June '21 cases
+1. To prove this hypothesis, we merged the CDC data and Census data in preparation for a linear regression visualization.
+2. We outputted a panda dataframe visualization in descending order from largest to smallest population size.
 3. 
