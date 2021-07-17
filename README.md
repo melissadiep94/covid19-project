@@ -1,6 +1,6 @@
 # Analysis of Covid-19 in NJ
-## Name of Group: Pandemic Solvers
-## Team Members: Dasa Simova, Joshua Pohl, Melissa Diep, Shuchi Khandelwal, Paul Shelffo
+### Name of Group: Pandemic Solvers
+### Team Members: Dasa Simova, Joshua Pohl, Melissa Diep, Shuchi Khandelwal, Paul Shelffo
 
 ### Project Description/Outline:
 * Our group wanted to analyze the # of Covid-19 cases in NJ by county, and the correlation that population size, # of hospitalizations, # of vaccinations, and age has had in the number of cases per NJ county.
