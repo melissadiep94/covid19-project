@@ -34,7 +34,7 @@
 
 ### II. Population Data:
 1. First, we sourced the Census API which includes the total population size by county as of 2019, which was the most up to date free data available.
-2. We formatted the data so that the necessary fields matched the CDC Data (example: County, County_Num).
+2. In preparation for future merging of the data, we formatted the data so that the necessary fields matched the same taxonomy of the CDC Data (example: County, County_Num).
 3. We created a bar graph to show the # of June '21 cases by county and ordered from most cases to least cases.
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/Census_population_size_NJ_June%202021.PNG?raw=true)
