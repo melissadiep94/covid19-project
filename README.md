@@ -66,4 +66,4 @@
    * Linear regression shows a strong positive correlation between population size and cases
 3. Research Q2 - Looks like there is a moderate correlation between hospitalizations and cases
    *  We can see from the bar graph and consolidated panda dataframe that counties with the fewest # of cases have the lowest # of hospitalizations (i.e. Salem), however it is a   bit unexpected that Passaic has the most # of hospitalizations at 40, since 4 other counties had more # of cases. Other factors must have contributed to Passaic's high # of hospitalizations.
-   *  Also, the linear regression shows a moderate correlation with an r-squared of 0.62. 
+   *  Also, the linear regression shows a moderate correlation with an r-squared of 0.62. Passaic can also be seen as an outlier in this visualization, as it is not aligned with the line plot.
