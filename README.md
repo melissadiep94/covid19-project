@@ -7,24 +7,24 @@
 ## Project Description/Outline:
 * Our group is looking to analyze the number of Covid-19 cases in NJ by county, and the correlation that population size, location, and vaccinations has had in the number of cases per NJ county.
 
-## Research Questions to Ask:
-* Which county has the most and least number of Covid-19 cases?
-    - Hypothesis: most populated county has the most number of cases
-* What is the correlation between number of cases and hospitalizations?
+## Research Questions:
+1. What is the correlation between population size and # of cases?
     - Hypothesis: very correlated
-* What is the correlation between # of vaccinations and # of cases?
+1. What is the correlation between # of hospitalizations of # of cases?
     - Hypothesis: very correlated
-* What is the correlation between proximity to NY and covid?
-    - Hypothesis: closer to NY has more cases
+1. What is the correlation between # of vaccinations and # of cases?
+    - Hypothesis: very correlated
+1. What is the correlation between age and # of cases?
+    - Hypothesis: very correlated
 
-## Data sources (can extract NJ by counties):
-* https://data.cdc.gov/resource/n8mc-b4w4.json?res_state=NJ
+## Data sources:
+1. https://data.cdc.gov/resource/n8mc-b4w4.json?res_state=NJ
     - Use: metrics for # of cases, # of hospitalizations 
-* www.census.gov
+1. www.census.gov
     - Use: can find the population data here      
-* www.api.covidactnow.org
+1. www.api.covidactnow.org
     - Use: Can get # of vaccinations 
-* www.google.com/maps
+1. www.google.com/maps
     - Use: distance from each county to NY
   
 ## Visualization will include:
