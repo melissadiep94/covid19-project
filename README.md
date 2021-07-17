@@ -10,23 +10,29 @@
 ## Research Questions:
 1. What is the correlation between population size and # of cases?
     - Hypothesis: very correlated
-1. What is the correlation between # of hospitalizations of # of cases?
+2. What is the correlation between # of hospitalizations and # of cases?
     - Hypothesis: very correlated
-1. What is the correlation between # of vaccinations and # of cases?
+3. What is the correlation between # of vaccinations and # of cases?
     - Hypothesis: very correlated
-1. What is the correlation between age and # of cases?
+4. What is the correlation between age and # of cases?
     - Hypothesis: very correlated
 
 ## Data sources:
 1. https://data.cdc.gov/resource/n8mc-b4w4.json?res_state=NJ
     - Use: metrics for # of cases, # of hospitalizations 
-1. www.census.gov
+2. www.census.gov
     - Use: can find the population data here      
-1. www.api.covidactnow.org
+3. www.api.covidactnow.org
     - Use: Can get # of vaccinations 
-1. www.google.com/maps
-    - Use: distance from each county to NY
-  
+
+
+##CDC Data - Cleaning up the Data & Initial Visualizations
+1. First, we sourced data from CDC that includes the number of Covid-19 cases in NJ by county by month.
+2. To make the data size smaller, we filtered for June 2021 as our sample, and dropped other data not related to the research questions 
+3. We created a bar graph to show the number of Covid-19 cases by county and ordered from most cases to least cases
+
+![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/CDC_num_cases_NJ_June%202021.PNG?raw=true)
+
 ## Visualization will include:
 * We will show linear regression (3-4 total) line graphs to show correlation for each of our research questions
 * Bar chart to show highest to least number of cases by county
