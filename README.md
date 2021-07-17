@@ -6,9 +6,9 @@
 * Our team wanted to analyze the # of Covid-19 cases in NJ by county, and the correlation that population size, # of hospitalizations, # of vaccinations, and age has had in the number of cases per NJ county.
 
 ## Research Questions:
-1. What is the correlation between # of hospitalizations and # of cases?
+1. What is the correlation between population size and # of cases?
     - Hypothesis: very correlated
-2. What is the correlation between population size and # of cases?
+2. What is the correlation between # of hospitalizations and # of cases?
     - Hypothesis: very correlated
 3. What is the correlation between # of vaccinations and # of cases?
     - Hypothesis: very correlated
@@ -43,8 +43,8 @@
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/Census_population_size_NJ_June%202021.PNG?raw=true)
 
-### Initial Hypothesis (Research Q1) : Looks like there is strong correlation between hospitalizations and cases, since the counties with the most # of hospitalizations generally have the most # of cases
-### Initial Hypothesis (Research Q2) : Looks like there is strong correlation between population size and cases, since the most populated counties generally have the most num of June '21 cases
+### Initial Hypothesis (Research Q1): Looks like there is strong correlation between population size and cases, since the most populated counties generally have the most num of June '21 cases
+### Initial Hypothesis (Research Q2): Looks like there is strong correlation between hospitalizations and cases, since the counties with the most # of hospitalizations generally have the most # of cases
 1. To prove this hypothesis, we merged the CDC data and Census data in preparation for a linear regression visualization.
 2. We outputted a panda dataframe visualization in descending order from largest to smallest population size.
 3. 
