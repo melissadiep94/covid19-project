@@ -43,8 +43,12 @@
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/Census_population_size_NJ_June%202021.PNG?raw=true)
 
-### Initial Hypothesis (Research Q1): Looks like there is strong correlation between population size and cases, since the most populated counties generally have the most # of cases
-### Initial Hypothesis (Research Q2): Looks like there is strong correlation between hospitalizations and cases, since the counties with the most # of hospitalizations generally have the most # of cases
-1. To prove this hypothesis, we merged the CDC data and Census data in preparation for a linear regression visualization.
-2. We outputted a panda dataframe visualization in descending order from largest to smallest population size.
-3. 
+### III. Consolidated Data (CDC + USAfacts + Population data)
+1. In preparation for linear regression visualiations, we merged our data sources.
+2. Then, we created a panda dataframe visualization in descending order from largest to smallest population size.
+
+### Conclusion
+1. Research Q1 - Bar graphs and linear regressions support that there is strong correlation between population size and cases.
+   * We can see from the bar graphs and consolidated panda dataframe that the most populated counties generally have the most # of cases
+   * Linear regression shows a strong positive correlation between population size and cases
+3. Research Q2 - Looks like there is strong correlation between hospitalizations and cases, since the counties with the most # of hospitalizations generally have the most # of cases
