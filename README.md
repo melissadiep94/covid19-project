@@ -39,7 +39,7 @@
 ### II. USAfacts Data
 
 ### III. Population Data
-1. The Census API includes the total population size by county as of 2019, which was the most up to date free data available.
+1. We sourced Census API which includes the total population size by county as of 2019. This was the most up to date free data available.
 2. In preparation for future merging of the data, we formatted the data so that the necessary fields matched the same taxonomy of the CDC Data (example: County, County_Num).
 3. We created a bar graph to show the population size by county and ordered the values descending from largest to smallest population size.
 
