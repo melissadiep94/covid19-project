@@ -56,12 +56,12 @@
 2. Then, we created a panda dataframe visualization in descending order from largest to smallest population size.
 3. We outputted visualizations to show correlation between:
 
-  ##### I. Population and Cases (June 2021)
+  ##### I. Population vs Cases (June 2021)
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/LinRegression_population_vs_num_June21_cases.PNG?raw=true)
 
-   ##### II. Population and Cumulative Cases (as of 7-15-21)
-   ##### III. Hospitalizations and Cases (June 2021)
+   ##### II. Population vs Cumulative Cases (as of 7-15-21)
+   ##### III. Hospitalizations vs Cases (June 2021)
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/LinRegression_hosp_vs_num_June21_cases.PNG?raw=true)
 
