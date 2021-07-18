@@ -46,7 +46,7 @@
 2. In preparation for future merging of the data, we formatted the data so that the necessary fields matched the same taxonomy of the CDC Data (example: County, County_Num).
 3. We created a bar graph to show the population size by county and # of cases as of 7-15-21 from USAfacts and ordered the values descending from largest to smallest population size.
 
-![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/Census_population_size_NJ_June%202021.PNG?raw=true)
+![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/Census_population_total_cases_USAfacts.PNG?raw=true)
 
 
 ### IV. Vaccination Data
