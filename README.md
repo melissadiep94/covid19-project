@@ -37,6 +37,11 @@
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/CDC_hosp_and_num_cases_NJ_June%202021.png?raw=true)
 
 ### II. USAfacts Data
+1. We wanted to further prove any hypothesis made with population vs June 21 cases by comparing population to the total cumulative cases by NJ county. 
+2. We found the total cumulative cases for all states as of 7-15-21 in CSV format from USAfacts.
+3. We cleaned the data by filtering for just NJ cases, and dropped all fields except for the County name, County_Num, and cases as of 7-15-21. Most of the other columns represented # of cases as of a different date.
+4. We created a bar graph to show the population size by county and # of cases as of 7-15-21 and ordered the values descending from largest to smallest population size.
+
 
 ### III. Population Data
 1. We sourced Census API which includes the total population size by county as of 2019. This was the most up to date free data available.
