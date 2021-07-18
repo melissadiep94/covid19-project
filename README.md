@@ -1,3 +1,4 @@
+![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/Covid_image2.png?raw=true)
 
 ## Project Title: Analysis of Covid-19 in NJ
 * Name of Group: Pandemic Solvers
