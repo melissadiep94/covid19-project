@@ -14,7 +14,9 @@
     - Hypothesis: very correlated
 3. What is the correlation between # of vaccinations and # of cases?
     - Hypothesis: very correlated
-4. What is the correlation between age and # of cases?
+4. What is the correlation between gender and # of cases?
+    - Hypothesis: moderately correlated
+6. What is the correlation between age and # of cases?
     - Hypothesis: very correlated
 
 ## Data Sources
