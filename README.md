@@ -45,6 +45,19 @@
 
 
 ### IV. Vaccination Data
+1. We used population data for the counties in NJ from the most up to date dataset from 2019. 
+2. Data about vaccination was found at  www.api.covidactnow.org in csv format, in time series for each county. The full dataset consists of 11319 entries, for 21 counties, for 2020 and 2021 per day. After we collected the data, we dropped the data not related to the vaccination and the number of cases and also the rows which didn't provided data in the selected fields (NaN values). Final dataset has 2892 entries(rows). Further analyses was performed with data about actual vaccination initiated, actual vaccination completed, actual new cases and data pertaining to the identification of the county, and the day when the data were collected. 
+3.  The term vaccination completed refers to the number of individuals who have received a single dose from a one-dose vaccine course,  or their second dose from a two-dose vaccine course; vaccination initiated refers to the number of individuals who have received only one dose from a two-dose vaccine course.
+4. The created stacked bar graph showceses the  percentage of population vaccinated -  vaccination initiated over vaccination completed, with markers used to point the actual total cases in % of population by county,NJ.
+
+![Image](Images/Vaccination_counties_NJ_Jun2021.png) 
+
+5. Then the time series data were used to showcase vaccination by date and  actual new cases by date by county in NJ. For the county with population vaccinated at the highest rate (Morris County) and at the lowest rate (Cumberland County) bar graph was selected to provide outlook at the vaccination data vs actual new cases data.
+
+![Image](Images/Vaccinaction_Morris.png)
+
+![Image](Images/Vaccinaction_Cumberland.png)
+
 
 ## Consolidated Data / Visualizations
 1. In preparation for outputting visualizations to show if there is correlation, we merged our data sources (CDC + USAfacts + Population data).
@@ -70,6 +83,14 @@
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/CDC_hosp_and_num_cases_NJ_June%202021.png?raw=true)
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/LinRegression_hosp_vs_num_June21_cases.PNG?raw=true)
+
+
+   #####  IV. Vaccination vs Actual New Cases by County - Morris & Cumberland (Jun2021)
+    
+
+![Image](Images/Linear_regr_Vaccinaction_Morris.png)
+
+![Image](Images/Linear_regr_Vaccinaction_Cumberland.png)
 
 
 ## Conclusion
