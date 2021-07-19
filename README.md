@@ -28,7 +28,7 @@
     - Use: metrics for vaccinations 
 
 
-## Cleaning up the Data & Initial Visualizations
+## Cleaning up the Data
 ### I. CDC Data (June '21 data)
 1. First, we sourced the CDC API which includes the # of cases and hospitalizations in NJ by county by month.
 2. To make the data size smaller, we filtered for June '21 as our sample for analysis. Per the API documentation provided, the new url became: https://data.cdc.gov/resource/n8mc-b4w4.json?res_state=NJ&case_month=2021-06&$limit=20000. We also dropped fields that were unrelated to the population and hospitalizations research questions.
