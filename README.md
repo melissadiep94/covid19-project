@@ -46,8 +46,8 @@
 
 ### IV. Vaccination Data
 
-## Consolidated Data / Additional Visualizations
-1. In preparation for further visualizations to show if there is correlation, we merged our data sources (CDC + USAfacts + Population data).
+## Consolidated Data / Visualizations
+1. In preparation for outputting visualizations to show if there is correlation, we merged our data sources (CDC + USAfacts + Population data).
 2. Then, we created a panda dataframe visualization in descending order from largest to smallest population size.
 3. We outputted linear regression and bar graph visualizations to show correlation between:
 
