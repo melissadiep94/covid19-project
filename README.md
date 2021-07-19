@@ -30,11 +30,9 @@
 
 ## Cleaning up the Data & Initial Visualizations
 ### I. CDC Data (June '21 data)
-1. First, we sourced the CDC API which includes the # of cases in NJ by county by month.
-2. To make the data size smaller, we filtered for June '21 as our sample for analysis. Per the API documentation provided, the new url became: https://data.cdc.gov/resource/n8mc-b4w4.json?res_state=NJ&case_month=2021-06&$limit=20000. We also dropped fields that were unrelated to the research questions.
-3. We created a bar graph to show the # of June '21 hospitalizations and cases by county and ordered the values descending from most to least # of cases.
+1. First, we sourced the CDC API which includes the # of cases and hospitalizations in NJ by county by month.
+2. To make the data size smaller, we filtered for June '21 as our sample for analysis. Per the API documentation provided, the new url became: https://data.cdc.gov/resource/n8mc-b4w4.json?res_state=NJ&case_month=2021-06&$limit=20000. We also dropped fields that were unrelated to the population and hospitalizations research questions.
 
-![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/CDC_hosp_and_num_cases_NJ_June%202021.png?raw=true)
 
 ### II. USAfacts Data
 1. We wanted to further prove any hypothesis made with population vs June 21 cases by comparing population to the total cumulative cases by NJ county. 
@@ -44,9 +42,6 @@
 ### III. Population Data
 1. We sourced Census API which includes the total population size by county as of 2019. This was the most up to date free data available.
 2. In preparation for future merging of the data, we formatted the data so that the necessary fields matched the same taxonomy of the CDC Data (example: County, County_Num).
-3. We created a bar graph to show the population size by county and # of cases as of 7-15-21 from USAfacts and ordered the values descending from largest to smallest population size.
-
-![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/Census_population_total_cases_USAfacts.PNG?raw=true)
 
 
 ### IV. Vaccination Data
@@ -54,17 +49,22 @@
 ## Consolidated Data / Additional Visualizations
 1. In preparation for further visualizations to show if there is correlation, we merged our data sources (CDC + USAfacts + Population data).
 2. Then, we created a panda dataframe visualization in descending order from largest to smallest population size.
-3. We outputted visualizations to show correlation between:
+3. We outputted linear regression and bar graph visualizations to show correlation between:
 
   ##### I. Population vs Cases (June 2021)
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/LinRegression_population_vs_num_June21_cases.PNG?raw=true)
 
    ##### II. Population vs Cumulative Cases (as of 7-15-21)
-   
+
+
+![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/Census_population_total_cases_USAfacts.PNG?raw=true)
+
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/LinRegression_population_vs_total%20YTD%20cases.PNG?raw=true)   
    
    ##### III. Hospitalizations vs Cases (June 2021)
+
+![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/CDC_hosp_and_num_cases_NJ_June%202021.png?raw=true)
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/LinRegression_hosp_vs_num_June21_cases.PNG?raw=true)
 
