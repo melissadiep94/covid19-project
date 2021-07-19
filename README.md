@@ -49,7 +49,10 @@
 ## Consolidated Data / Visualizations
 1. In preparation for outputting visualizations to show if there is correlation, we merged our data sources (CDC + USAfacts + Population data).
 2. Then, we created a panda dataframe visualization in descending order from largest to smallest population size.
-3. We outputted linear regression and bar graph visualizations to show correlation between:
+
+![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/Consolidated_df.PNG?raw=true)
+
+4. We outputted linear regression and bar graph visualizations to show correlation between:
 
   ##### I. Population (2019) vs Cases (June 2021)
 
