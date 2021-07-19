@@ -84,7 +84,7 @@
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/CDC_hosp_and_num_cases_NJ_June%202021.png?raw=true)
 
-![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/LinRegression_hosp_vs_num_June21_cases.PNG?raw=true)
+![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/LinRegression_hosp_vs_num_June21_casesv2.PNG?raw=true)
 
 
    #####  IV. Vaccination vs Actual New Cases by County - Morris & Cumberland (Jun2021)
