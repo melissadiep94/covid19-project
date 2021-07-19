@@ -48,7 +48,7 @@
 1. We used population data for the counties in NJ from the most up to date dataset from 2019. 
 2. Data about vaccination was found at  www.api.covidactnow.org in csv format, in time series for each county. The full dataset consists of 11319 entries, for 21 counties, for 2020 and 2021 per day. After we collected the data, we dropped the data not related to the vaccination and the number of cases and also the rows which didn't provided data in the selected fields (NaN values). Final dataset has 2892 entries(rows). Further analyses was performed with data about actual vaccination initiated, actual vaccination completed, actual new cases and data pertaining to the identification of the county, and the day when the data were collected. 
 3.  The term vaccination completed refers to the number of individuals who have received a single dose from a one-dose vaccine course,  or their second dose from a two-dose vaccine course; vaccination initiated refers to the number of individuals who have received only one dose from a two-dose vaccine course.
-4. The created stacked bar graph showceses the  percentage of population vaccinated -  vaccination initiated over vaccination completed, with markers used to point the actual total cases in % of population by county,NJ.
+4. The created stacked bar graph showcases the  percentage of population vaccinated -  vaccination initiated over vaccination completed, with markers used to point the actual total cases in % of population by county,NJ.
 
 ![Image](Images/Vaccination_counties_NJ_Jun2021.png) 
 
