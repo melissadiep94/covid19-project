@@ -52,7 +52,7 @@
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/Consolidated_df.PNG?raw=true)
 
-4. We outputted linear regression and bar graph visualizations to show correlation between:
+3. We outputted linear regression and bar graph visualizations to show correlation between:
 
   ##### I. Population (2019) vs Cases (June 2021)
 
