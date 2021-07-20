@@ -20,34 +20,38 @@
     - Hypothesis: very correlated
 
 ## Data Sources
-1.  https://data.cdc.gov/resource/n8mc-b4w4.json?
-    - Use: metrics for # of cases, # of hospitalizations by NJ county and by month 
-2.  https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/state/new-jersey
-    - Use: shows cumulative # of Covid-19 cases by NJ county
-4.  www.census.gov
-    - Use: population data for NJ by county      
-5. www.api.covidactnow.org
-    - Use: metrics for vaccinations 
+1.  
+    - 
+2.  
+    - 
+4.  
+    -   
+5. 
+    - 
 
 
-## Cleaning up the Data
-### I. CDC Data (June '21 data)
-1. First, we sourced the CDC API which includes the # of cases and hospitalizations in NJ by county by month.
-2. To make the data size smaller, we filtered for June '21 as our sample for analysis. Per the API documentation provided, the new url became: https://data.cdc.gov/resource/n8mc-b4w4.json?res_state=NJ&case_month=2021-06&$limit=20000. We also dropped fields that were unrelated to the population and hospitalizations research questions.
+## Data Sources & Cleaning up the Data
+### I. CDC Data (June '21 data) - https://data.cdc.gov/resource/n8mc-b4w4.json?
+1.  Use: metrics for # of cases, # of hospitalizations by NJ county and by month 
+2.  First, we sourced the CDC API which includes the # of cases and hospitalizations in NJ by county by month.
+3. To make the data size smaller, we filtered for June '21 as our sample for analysis. Per the API documentation provided, the new url became: https://data.cdc.gov/resource/n8mc-b4w4.json?res_state=NJ&case_month=2021-06&$limit=20000. We also dropped fields that were unrelated to the population and hospitalizations research questions.
 
 
-### II. USAfacts Data (7-15-21)
-1. We wanted to further prove any hypothesis made with population vs June 21 cases by comparing population to the total cumulative cases by NJ county. 
-2. We found the total cumulative cases for all states as of 7-15-21 in CSV format from USAfacts.
-3. We cleaned the data by filtering for just NJ cases, and dropped all fields except for the County name, County_Num, and cases as of 7-15-21. Most of the other columns represented # of cases as of a different date.
+### II. USAfacts Data (7-15-21) - https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/state/new-jersey
+1.  Use: shows cumulative # of Covid-19 cases by NJ county
+2.  We wanted to further prove any hypothesis made with population vs June 21 cases by comparing population to the total cumulative cases by NJ county. 
+3. We found the total cumulative cases for all states as of 7-15-21 in CSV format from USAfacts.
+4. We cleaned the data by filtering for just NJ cases, and dropped all fields except for the County name, County_Num, and cases as of 7-15-21. Most of the other columns represented # of cases as of a different date.
 
-### III. Population Data (2019)
-1. We sourced Census API which includes the total population size by county as of 2019. This was the most up to date free data available.
-2. In preparation for future merging of the data, we formatted the data so that the necessary fields matched the same taxonomy of the CDC Data (example: County, County_Num).
+### III. Population Data (2019) - www.census.gov
+1.  Use: population data for NJ by county    
+2.  We sourced Census API which includes the total population size by county as of 2019. This was the most up to date free data available.
+3. In preparation for future merging of the data, we formatted the data so that the necessary fields matched the same taxonomy of the CDC Data (example: County, County_Num).
 
 
-### IV. Vaccination Data 
-2. We sourced the vaccination data from www.api.covidactnow.org in csv format, in time series for each county. The full dataset consists of 11319 entries, for 21 counties, for 2020 and 2021 per day. After we collected the data, we dropped the data not related to the vaccination and the number of cases and also the rows which didn't provide data in the selected fields (NaN values). Final dataset has 2892 entries(rows). Further analyses were performed with the data about actual vaccination initiated, actual vaccination completed, actual new cases, and data pertaining to the identification of the county, and the day when the data was collected. 
+### IV. Vaccination Data - www.api.covidactnow.org
+1.  Use: metrics for vaccinations 
+2.  We sourced the vaccination data from www.api.covidactnow.org in csv format, in time series for each county. The full dataset consists of 11319 entries, for 21 counties, for 2020 and 2021 per day. After we collected the data, we dropped the data not related to the vaccination and the number of cases and also the rows which didn't provide data in the selected fields (NaN values). Final dataset has 2892 entries(rows). Further analyses were performed with the data about actual vaccination initiated, actual vaccination completed, actual new cases, and data pertaining to the identification of the county, and the day when the data was collected. 
 3.  The term vaccination completed refers to the number of individuals who have received a single dose from a one-dose vaccine course,  or their second dose from a two-dose vaccine course; vaccination initiated refers to the number of individuals who have received only one dose from a two-dose vaccine course.
 4. The created stacked bar graph showcases the  percentage of population vaccinated -  vaccination initiated over vaccination completed, with markers used to point the actual total cases in % of population by county,NJ. We used population data for the counties in NJ from the most up to date dataset from 2019. 
 
