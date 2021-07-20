@@ -1,11 +1,11 @@
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/Covid_image2.png?raw=true)
 
-## Project Title: Analysis of Covid-19 in NJ
+## Project Title: Analysis of # of Covid-19 Cases vs. Several Different Factors
 * Name of Group: Pandemic Solvers
 * Team Members: Dasa Simova, Joshua Pohl, Melissa Diep, Shuchi Khandelwal, Paul Shelffo
 
 ## Project Description/Outline
-* Our team wanted to analyze the # of Covid-19 cases in NJ by county, and the correlation that population size, # of hospitalizations, # of vaccinations, and age has had in the # of cases per NJ county.
+* Our team wanted to analyze the # of Covid-19 cases in NJ by county, and the correlation that population size, # of hospitalizations, # of vaccinations, gender, and age has had in the # of cases per NJ county.
 
 ## Research Questions
 1. What is the correlation between population size and # of cases?
@@ -18,16 +18,6 @@
     - Hypothesis: moderately correlated
 6. What is the correlation between age and # of cases?
     - Hypothesis: very correlated
-
-## Data Sources
-1.  
-    - 
-2.  
-    - 
-4.  
-    -   
-5. 
-    - 
 
 
 ## Data Sources & Cleaning up the Data
@@ -53,24 +43,17 @@
 1.  Use: metrics for vaccinations 
 2.  We sourced the vaccination data from www.api.covidactnow.org in csv format, in time series for each county. The full dataset consists of 11319 entries, for 21 counties, for 2020 and 2021 per day. After we collected the data, we dropped the data not related to the vaccination and the number of cases and also the rows which didn't provide data in the selected fields (NaN values). Final dataset has 2892 entries(rows). Further analyses were performed with the data about actual vaccination initiated, actual vaccination completed, actual new cases, and data pertaining to the identification of the county, and the day when the data was collected. 
 3.  The term vaccination completed refers to the number of individuals who have received a single dose from a one-dose vaccine course,  or their second dose from a two-dose vaccine course; vaccination initiated refers to the number of individuals who have received only one dose from a two-dose vaccine course.
-4. The created stacked bar graph showcases the  percentage of population vaccinated -  vaccination initiated over vaccination completed, with markers used to point the actual total cases in % of population by county,NJ. We used population data for the counties in NJ from the most up to date dataset from 2019. 
-
-![Image](Images/Vaccination_counties_NJ_Jun2021.png) 
-
-5. Then the time series data were used to showcase vaccination by date and  actual new cases by date by county in NJ. For the county with population vaccinated at the highest rate (Morris County) and at the lowest rate (Cumberland County) bar graph was selected to provide an outlook at the vaccination data vs actual new cases data.
-
-![Image](Images/Vaccinaction_Morris.png)
-
-![Image](Images/Vaccinaction_Cumberland.png)
-
+4. 
 
 ## Consolidated Data / Visualizations
-1. In preparation for outputting visualizations to show if there is correlation, we merged our data sources (CDC + USAfacts + Population data).
-2. Then, we created a panda dataframe visualization in descending order from largest to smallest population size.
+### CDC + USAfacts + Population data
+1.  
+2.  In preparation for outputting visualizations to show if there is correlation, we merged our data sources ().
+3. We created a panda dataframe visualization in descending order from largest to smallest population size.
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/Consolidated_df.PNG?raw=true)
 
-3. We outputted linear regression and bar graph visualizations to show correlation between:
+4. We outputted linear regression and bar graph visualizations to show correlation between:
 
   ##### I. Population (2019) vs Cases (June 2021)
 
@@ -90,9 +73,23 @@
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/LinRegression_hosp_vs_num_June21_casesv2.PNG?raw=true)
 
 
-   #####  IV. Vaccination vs Total Cases by County - Morris & Cumberland (Jun2021)
-    
 
+### Vaccination + Population data
+1. We merged vaccination data with population data and created a stacked bar graph to showcase the  percentage of population vaccinated -  vaccination initiated over vaccination completed, with markers used to point the actual total cases in % of population by county,NJ. used population data for the counties in NJ from the most up to date dataset from 2019. 
+
+![Image](Images/Vaccination_counties_NJ_Jun2021.png) 
+
+2. Then vaccination time series data were used to showcase vaccination by date and  actual new cases by date by county in NJ. For the county with population vaccinated at the highest rate (Morris County) and at the lowest rate (Cumberland County) bar graph was selected to provide an outlook at the vaccination data vs actual new cases data.
+
+![Image](Images/Vaccinaction_Morris.png)
+
+![Image](Images/Vaccinaction_Cumberland.png)
+
+### Vaccination + Cumulative Cases (as of 6-30-21) for Morris & Cumberland 
+
+1. We outputted linear regression visualizations to show correlation between:
+   #####  Vaccination vs Total Cases by County - (Jun2021)
+    
 ![Image](Images/Linear_regr_Vaccinaction_Morris.png)
 
 ![Image](Images/Linear_regr_Vaccinaction_Cumberland.png)
