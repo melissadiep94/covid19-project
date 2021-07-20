@@ -47,13 +47,13 @@
 
 
 ### IV. Vaccination Data 
-2. We sourced vaccination data from www.api.covidactnow.org in csv format, in time series for each county. The full dataset consists of 11319 entries, for 21 counties, for 2020 and 2021 per day. After we collected the data, we dropped the data not related to the vaccination and the number of cases and also the rows which didn't provided data in the selected fields (NaN values). Final dataset has 2892 entries(rows). Further analyses was performed with data about actual vaccination initiated, actual vaccination completed, actual new cases and data pertaining to the identification of the county, and the day when the data were collected. 
+2. We sourced the vaccination data from www.api.covidactnow.org in csv format, in time series for each county. The full dataset consists of 11319 entries, for 21 counties, for 2020 and 2021 per day. After we collected the data, we dropped the data not related to the vaccination and the number of cases and also the rows which didn't provide data in the selected fields (NaN values). Final dataset has 2892 entries(rows). Further analyses were performed with the data about actual vaccination initiated, actual vaccination completed, actual new cases, and data pertaining to the identification of the county, and the day when the data was collected. 
 3.  The term vaccination completed refers to the number of individuals who have received a single dose from a one-dose vaccine course,  or their second dose from a two-dose vaccine course; vaccination initiated refers to the number of individuals who have received only one dose from a two-dose vaccine course.
 4. The created stacked bar graph showcases the  percentage of population vaccinated -  vaccination initiated over vaccination completed, with markers used to point the actual total cases in % of population by county,NJ. We used population data for the counties in NJ from the most up to date dataset from 2019. 
 
 ![Image](Images/Vaccination_counties_NJ_Jun2021.png) 
 
-5. Then the time series data were used to showcase vaccination by date and  actual new cases by date by county in NJ. For the county with population vaccinated at the highest rate (Morris County) and at the lowest rate (Cumberland County) bar graph was selected to provide outlook at the vaccination data vs actual new cases data.
+5. Then the time series data were used to showcase vaccination by date and  actual new cases by date by county in NJ. For the county with population vaccinated at the highest rate (Morris County) and at the lowest rate (Cumberland County) bar graph was selected to provide an outlook at the vaccination data vs actual new cases data.
 
 ![Image](Images/Vaccinaction_Morris.png)
 
@@ -86,7 +86,7 @@
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/LinRegression_hosp_vs_num_June21_casesv2.PNG?raw=true)
 
 
-   #####  IV. Vaccination vs Actual New Cases by County - Morris & Cumberland (Jun2021)
+   #####  IV. Vaccination vs Total Cases by County - Morris & Cumberland (Jun2021)
     
 
 ![Image](Images/Linear_regr_Vaccinaction_Morris.png)
@@ -101,3 +101,9 @@
 2. Research Q2 - Bar graphs and linear regressions support that there is a moderate correlation between hospitalizations and cases
    *  We can see from the bar graph and consolidated panda dataframe that counties with the fewest # of cases have the lowest # of hospitalizations (i.e. Salem), however it is a bit unexpected that Passaic has the most # of hospitalizations at 40, since 4 other counties had more # of cases. Other factors must have contributed to Passaic's high # of hospitalizations.
    *  Also, the linear regression shows a moderate correlation with an r-squared of 0.62. Passaic can also be seen as an outlier in this visualization, as this point is the most out of alignment with the line plot. 
+3. Research Q3 - We built a series of linear regression graphs by county in NJ. Our hypothesis assumes that there is a negative linear relationship - when vaccinaction increases in numbers, the number of cases decreases.To show possible relationship between vaccination and the number of the cases of COVID two counties were chosen based on percentage of vaccinated people of total population in the county (results as in June 2021). 
+    * The county with the highest percentage of vaccinated people - Morris County (67% vaccination iniciated, 61% completed, 10% cases of total population). Linear regression and Pearson's correlation coeffient showcases strong linear relationship by the value of r, 0.867 and coefficient 0.98. We could say that vaccination has a positive linear relationship with cases. However the plot shows that there is a different relationship between these two observable variables, and the different function should be used to describe and predict the number of the posssible future cases. In the plotted scenario, the number of cases is flat starting at some point, and if it continues in that direction - it means, statistically, that even if we increase the number of the vaccinated people , the number of cases will not increase. 
+    * The county with the least percentage of vaccinated people - Cumberland County (47% vaccination initiated, 39% vaccination completed and 11.5% cases of total population). Linear regression and Pearson's coefficient showcases an even stronger positive linear relationship ( r value is 0.97 and coefficient has value 0.99).
+    We can also notice the flattening in the data.
+
+    Based on plots and line equations, with correlation coefficients calculated we can say there was a positive linear correlation between vaccination and the number of cases, however we should consider broader analysis and functions in this scenario to correctly observe and predict future scenarios. 
