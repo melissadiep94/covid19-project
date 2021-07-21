@@ -40,17 +40,23 @@
 
 
 ### IV. Vaccination Data - www.api.covidactnow.org
-1.  Use: metrics for vaccinations by NJ county
+1.  Use: metrics for vaccinations, new cases per day, cumulative cases by NJ county
 2.  We sourced the vaccination data from www.api.covidactnow.org in csv format, in time series for each county. The full dataset consists of 11319 entries, for 21 counties, for 2020 and 2021 per day. After we collected the data, we dropped the data not related to the vaccination and the number of cases and also the rows which didn't provide data in the selected fields (NaN values). Final dataset has 2892 entries(rows). Further analyses were performed with the data about actual vaccination initiated, actual vaccination completed, actual new cases, and data pertaining to the identification of the county, and the day when the data was collected. 
-3.  The term vaccination completed refers to the number of individuals who have received a single dose from a one-dose vaccine course,  or their second dose from a two-dose vaccine course; vaccination initiated refers to the number of individuals who have received only one dose from a two-dose vaccine course.
+3.  The term vaccination completed refers to the number of individuals who have received a single dose from a one-dose vaccine course,  or their second dose from a two-dose vaccine course; vaccination initiated refers to the number of individuals who have received only one dose from a two-dose vaccine course. 
+4.  The vaccination time series data was used to showcase vaccination by date and  actual new cases by date by county in NJ. For the county with population vaccinated at the highest rate (Morris County) and at the lowest rate (Cumberland County) bar graph was selected to provide an outlook at the vaccination data vs actual new cases data.
+![Image](Images/Vaccinaction_Morris.png)
 
-## Consolidated Data / Visualizations / Conclusion
-### I. CDC + USAfacts + Population data
-1.  We merged our data sources, and created a panda dataframe visualization in descending order from largest to smallest population size.
+![Image](Images/Vaccinaction_Cumberland.png)
 
+## Merged Data
+1. We merged our CDC + USAfacts + Population data, and created a panda dataframe visualization in descending order from largest to smallest population size.
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/Consolidated_df.PNG?raw=true)
+2. We merged vaccination data with population data and created a stacked bar graph to showcase the  percentage of population vaccinated initiated and vaccination completed, with markers used to point the actual total cases in % of population by county,NJ.  
 
-2. We outputted linear regression and bar graph visualizations to show correlation between:
+![Image](Images/Vaccination_counties_NJ_Jun2021.png) 
+
+## Data Visualizations to show Correlation
+1. We outputted linear regression and bar graph visualizations to show correlation between:
 
   ##### A. Population (2019) vs Cases (June 2021)
 
@@ -71,20 +77,9 @@
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/LinRegression_hosp_vs_num_June21_casesv2.PNG?raw=true)
 
 
-### II. Vaccination + Population data
-1. We merged vaccination data with population data and created a stacked bar graph to showcase the  percentage of population vaccinated initiated and vaccination completed, with markers used to point the actual total cases in % of population by county,NJ.  
+### D. Vaccination + Cumulative Cases (as of 6-30-21) for Morris & Cumberland 
 
-![Image](Images/Vaccination_counties_NJ_Jun2021.png) 
-
-2. Then vaccination time series data were used to showcase vaccination by date and  actual new cases by date by county in NJ. For the county with population vaccinated at the highest rate (Morris County) and at the lowest rate (Cumberland County) bar graph was selected to provide an outlook at the vaccination data vs actual new cases data.
-
-![Image](Images/Vaccinaction_Morris.png)
-
-![Image](Images/Vaccinaction_Cumberland.png)
-
-### III. Vaccination + Cumulative Cases (as of 6-30-21) for Morris & Cumberland 
-
-1. We outputted linear regression visualizations to show correlation between:
+* We outputted linear regression visualizations to show correlation between:
    #####  Vaccination vs Total Cases by County - (Jun2021)
     
 ![Image](Images/Linear_regr_Vaccinaction_Morris.png)
