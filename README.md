@@ -47,7 +47,7 @@
 * We sourced Census API which includes the total population size by county as of 2019. This was the most up to date free data available.
 * In preparation for future merging of the data, we formatted the data so that the necessary fields matched the same taxonomy of the CDC Data (example: County, County_Num).
 
-#### ***Merging the Data & Visualizations***
+### ***Merging the Data & Visualizations***
 * We merged our CDC + USAfacts + Population data, and created a panda dataframe visualization in descending order from largest to smallest population size.
         ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/Consolidated_df.PNG?raw=true)
 * We outputted linear regression and bar graph visualizations to show correlation between:
