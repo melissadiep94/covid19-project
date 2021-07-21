@@ -72,7 +72,6 @@
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/LinRegression_hosp_vs_num_June21_casesv2.PNG?raw=true)
 
 
-
 ### II. Vaccination + Population data
 1. We merged vaccination data with population data and created a stacked bar graph to showcase the  percentage of population vaccinated initiated and vaccination completed, with markers used to point the actual total cases in % of population by county,NJ.  
 
@@ -84,7 +83,7 @@
 
 ![Image](Images/Vaccinaction_Cumberland.png)
 
-### Vaccination + Cumulative Cases (as of 6-30-21) for Morris & Cumberland 
+### III. Vaccination + Cumulative Cases (as of 6-30-21) for Morris & Cumberland 
 
 1. We outputted linear regression visualizations to show correlation between:
    #####  Vaccination vs Total Cases by County - (Jun2021)
