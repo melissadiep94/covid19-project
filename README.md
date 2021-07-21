@@ -88,7 +88,7 @@ We built a series of linear regression graphs by county in NJ. Our hypothesis as
 
 ![Image](Images/Linear_regr_Vaccinaction_Morris.png)
     
-    * The county with the least percentage of vaccinated people - Cumberland County (47% vaccination initiated, 39% vaccination completed and 11.5% cases of total population). Linear regression and Pearson's coefficient showcases a stronger positive linear relationship ( r value is 0.97 and coefficient has value 0.99) than Morris County.  We can also notice the flattening in the data. 
+   * The county with the least percentage of vaccinated people - Cumberland County (47% vaccination initiated, 39% vaccination completed and 11.5% cases of total population). Linear regression and Pearson's coefficient showcases a stronger positive linear relationship ( r value is 0.97 and coefficient has value 0.99) than Morris County.  We can also notice the flattening in the data. 
     
 ![Image](Images/Linear_regr_Vaccinaction_Cumberland.png)
 
