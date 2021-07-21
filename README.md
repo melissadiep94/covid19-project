@@ -30,7 +30,7 @@
 4. Population Data (2019) - API
     - www.census.gov
     - Use: population data by NJ county
-6. Vaccination Data
+6. Vaccination Data - CSV
     - www.api.covidactnow.org
     - Use: metrics for vaccinations, new cases per day, cumulative cases by NJ county
 
@@ -89,10 +89,10 @@
 ![Image](Images/Vaccinaction_Cumberland.png)
 
 ### ***Merged Data & Other Visualizations***
-* We merged vaccination data with population data and created a stacked bar graph to showcase the  percentage of population vaccinated initiated and vaccination completed, with markers used to point the actual total cases in % of population by county,NJ.  
+* We merged vaccination data with population data and created a stacked bar graph to showcase the  percentage of population vaccination initiated and vaccination completed, with markers used to point the actual total cases in % of population by county,NJ.  
 ![Image](Images/Vaccination_counties_NJ_Jun2021.png) 
 * We built a series of linear regression graphs by county in NJ. Our hypothesis assumes that there is a negative linear relationship - when vaccinations increase, the number of cases decreases. To show possible relationship between vaccination and the number of the cases of COVID two counties were chosen based on percentage of vaccinated people of total population in the county (results as in June 2021). 
-1. The county with the highest percentage of vaccinated people - Morris County (67% vaccination iniciated, 61% completed, 10% cases of total population). Linear regression and Pearson's correlation coeffient showcases strong linear relationship by the value of r, 0.867 and coefficient 0.98. However, the number of cases is flat starting at some point, and if it continues in that direction - it means, statistically, that even if we increase the number of the vaccinated people , the number of cases will not increase.
+1. The county with the highest percentage of vaccinated people - Morris County (67% vaccination initiated, 61% completed, 10% cases of total population). Linear regression and Pearson's correlation coeffient showcases strong linear relationship by the value of r, 0.867 and coefficient 0.98. However, the number of cases is flat starting at some point, and if it continues in that direction - it means, statistically, that even if we increase the number of the vaccinated people , the number of cases will not increase.
 ![Image](Images/Linear_regr_Vaccinaction_Morris.png)    
 2. The county with the least percentage of vaccinated people - Cumberland County (47% vaccination initiated, 39% vaccination completed and 11.5% cases of total population). Linear regression and Pearson's coefficient showcases a stronger positive linear relationship ( r value is 0.97 and coefficient has value 0.99) than Morris County.  We can also notice the flattening in the data.     
 ![Image](Images/Linear_regr_Vaccinaction_Cumberland.png)
