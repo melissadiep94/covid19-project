@@ -77,10 +77,8 @@
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/LinRegression_hosp_vs_num_June21_casesv2.PNG?raw=true)
 
 
-### D. Vaccination + Cumulative Cases (as of 6-30-21) for Morris & Cumberland 
+### D. Cumulative Vaccinations + Cases (as of 6-30-21) for Morris & Cumberland 
 
-* We outputted linear regression visualizations to show correlation between:
-   #####  Vaccination vs Total Cases by County - (Jun2021)
     
 ![Image](Images/Linear_regr_Vaccinaction_Morris.png)
 
