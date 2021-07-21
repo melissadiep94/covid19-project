@@ -22,17 +22,17 @@
 
 ## Data Sources
 1. CDC Data (June '21 data) - API
-*  https://data.cdc.gov/resource/n8mc-b4w4.json?
-*  Use: metrics for # of cases, # of hospitalizations by NJ county
+    - https://data.cdc.gov/resource/n8mc-b4w4.json?
+    - Use: metrics for # of cases, # of hospitalizations by NJ county
 2. USAfacts Data (7-15-21) - CSV
-*  https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/state/new-jersey
-*  Use: cumulative # of Covid-19 cases by NJ county
+    - https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/state/new-jersey
+    - Use: cumulative # of Covid-19 cases by NJ county
 4. Population Data (2019) - API
-*    www.census.gov
-*    Use: population data by NJ county
+    - www.census.gov
+    - Use: population data by NJ county
 6. Vaccination Data
-* www.api.covidactnow.org
-* Use: metrics for vaccinations, new cases per day, cumulative cases by NJ county
+    - www.api.covidactnow.org
+    - Use: metrics for vaccinations, new cases per day, cumulative cases by NJ county
 
 ## Research Question 1 /2 - What is the correlation between population size and # of hospitalizations with # of cases?
 
