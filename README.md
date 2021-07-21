@@ -34,7 +34,7 @@
     - www.api.covidactnow.org
     - Use: metrics for vaccinations, new cases per day, cumulative cases by NJ county
 
-## Research Question 1 /2 - What is the correlation between population size and hospitalizations with # of cases?
+## Research Qs 1/2 - What is the correlation between population and hospitalizations with # of Covid cases?
 
 ### ***Data Sources & Cleaning up the Data***
 #### I. CDC Data (June '21 data) 
