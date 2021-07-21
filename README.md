@@ -9,15 +9,15 @@
 
 ## Research Questions
 1. What is the correlation between population size and # of cases?
-    - Hypothesis: very correlated
+    - Hypothesis: positive correlation
 2. What is the correlation between # of hospitalizations and # of cases?
-    - Hypothesis: very correlated
+    - Hypothesis: positive correlation
 3. What is the correlation between # of vaccinations and # of cases?
-    - Hypothesis: very correlated
+    - Hypothesis: negative correlation
 4. What is the correlation between gender and # of cases?
-    - Hypothesis: moderately correlated
+    - Hypothesis: gender impacts # of cases
 6. What is the correlation between age and # of cases?
-    - Hypothesis: very correlated
+    - Hypothesis: age impacts # of cases
 
 
 ## Data Sources & Cleaning up the Data
