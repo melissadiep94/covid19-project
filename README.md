@@ -25,7 +25,7 @@
 1.  https://data.cdc.gov/resource/n8mc-b4w4.json?
 2.  Use: metrics for # of cases, # of hospitalizations by NJ county
 3.  We sourced the CDC API which includes the # of cases and hospitalizations in NJ by county by month.
-4. To make the data size smaller, we filtered for June '21 as our sample for analysis. Per the API documentation provided, the new url became: https://data.cdc.gov/resource/n8mc-b4w4.json?res_state=NJ&case_month=2021-06&$limit=20000. We also dropped fields that were unrelated to the population and hospitalizations research questions.
+4. To make the data size smaller, we filtered for June '21 as our sample for analysis. Per the API documentation provided, the new url became: https://data.cdc.gov/resource/n8mc-b4w4.json?res_state=NJ&case_month=2021-06&$limit=20000. We also dropped fields that were unrelated to the population and hospitalizations research questions. Next, we filtered the hospitalizations field for "Yes". 
 
 
 ### II. USAfacts Data (7-15-21) 
