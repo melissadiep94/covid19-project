@@ -88,7 +88,7 @@
 ![Image](Images/Vaccinaction_Morris.png)
 ![Image](Images/Vaccinaction_Cumberland.png)
 
-#### ***Merged Data & Other Visualizations***
+### ***Merged Data & Other Visualizations***
 * We merged vaccination data with population data and created a stacked bar graph to showcase the  percentage of population vaccinated initiated and vaccination completed, with markers used to point the actual total cases in % of population by county,NJ.  
 ![Image](Images/Vaccination_counties_NJ_Jun2021.png) 
 * We built a series of linear regression graphs by county in NJ. Our hypothesis assumes that there is a negative linear relationship - when vaccinations increase, the number of cases decreases. To show possible relationship between vaccination and the number of the cases of COVID two counties were chosen based on percentage of vaccinated people of total population in the county (results as in June 2021). 
