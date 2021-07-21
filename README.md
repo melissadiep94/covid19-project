@@ -45,26 +45,32 @@
 3.  The term vaccination completed refers to the number of individuals who have received a single dose from a one-dose vaccine course,  or their second dose from a two-dose vaccine course; vaccination initiated refers to the number of individuals who have received only one dose from a two-dose vaccine course.
 4. 
 
-## Consolidated Data / Visualizations
-### CDC + USAfacts + Population data
+## Consolidated Data / Visualizations / Conclusion
+### I. CDC + USAfacts + Population data
 1.  We merged our data sources, and created a panda dataframe visualization in descending order from largest to smallest population size.
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/Consolidated_df.PNG?raw=true)
 
 2. We outputted linear regression and bar graph visualizations to show correlation between:
 
-  ##### I. Population (2019) vs Cases (June 2021)
+  ##### Population (2019) vs Cases (June 2021)
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/LinRegression_population_vs_num_June21_cases.PNG?raw=true)
 
-   ##### II. Population (2019) vs Cumulative Cases (as of 7-15-21)
+   ##### Population (2019) vs Cumulative Cases (as of 7-15-21)
 
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/Census_population_total_cases_USAfacts.PNG?raw=true)
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/LinRegression_population_vs_total%20YTD%20cases.PNG?raw=true)   
    
-   ##### III. Hospitalizations vs Cases (June 2021)
+   ###### Conclusion
+   
+   Research Q1 - Bar graphs and linear regressions support that there is strong correlation between population size and cases.
+   * We can see from the bar graphs and consolidated panda dataframe that the most populated counties generally have the most # of cases
+   * Linear regression shows a strong positive correlation between population size and cases
+   
+   ##### C. Hospitalizations vs Cases (June 2021)
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/CDC_hosp_and_num_cases_NJ_June%202021.png?raw=true)
 
@@ -72,8 +78,8 @@
 
 
 
-### Vaccination + Population data
-1. We merged vaccination data with population data and created a stacked bar graph to showcase the  percentage of population vaccinated -  vaccination initiated over vaccination completed, with markers used to point the actual total cases in % of population by county,NJ. used population data for the counties in NJ from the most up to date dataset from 2019. 
+### II. Vaccination + Population data
+1. We merged vaccination data with population data and created a stacked bar graph to showcase the  percentage of population vaccinated initiated and vaccination completed, with markers used to point the actual total cases in % of population by county,NJ.  
 
 ![Image](Images/Vaccination_counties_NJ_Jun2021.png) 
 
@@ -94,9 +100,7 @@
 
 
 ## Conclusion
-1. Research Q1 - Bar graphs and linear regressions support that there is strong correlation between population size and cases.
-   * We can see from the bar graphs and consolidated panda dataframe that the most populated counties generally have the most # of cases
-   * Linear regression shows a strong positive correlation between population size and cases
+1. 
 2. Research Q2 - Bar graphs and linear regressions support that there is a moderate correlation between hospitalizations and cases
    *  We can see from the bar graph and consolidated panda dataframe that counties with the fewest # of cases have the lowest # of hospitalizations (i.e. Salem), however it is a bit unexpected that Passaic has the most # of hospitalizations at 40, since 4 other counties had more # of cases. Other factors must have contributed to Passaic's high # of hospitalizations.
    *  Also, the linear regression shows a moderate correlation with an r-squared of 0.62. Passaic can also be seen as an outlier in this visualization, as this point is the most out of alignment with the line plot. 
