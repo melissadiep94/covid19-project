@@ -38,21 +38,19 @@
 
 ### ***Data Sources & Cleaning up the Data***
 #### I. CDC Data (June '21 data) 
-    * To make the data size smaller, we filtered for June '21 as our sample for analysis. Per the API documentation provided, the new url became: https://data.cdc.gov/resource/n8mc-b4w4.json?res_state=NJ&case_month=2021-06&$limit=20000. We also dropped fields that were unrelated to the population and hospitalizations research questions. Next, we filtered the hospitalizations field for "Yes". 
-
+* To make the data size smaller, we filtered for June '21 as our sample for analysis. Per the API documentation provided, the new url became: https://data.cdc.gov/resource/n8mc-b4w4.json?res_state=NJ&case_month=2021-06&$limit=20000. We also dropped fields that were unrelated to the population and hospitalizations research questions. Next, we filtered the hospitalizations field for "Yes". 
 #### II. USAfacts Data (7-15-21) 
-    * We wanted to further prove any hypothesis made with population vs June 21 cases by comparing population to the total cumulative cases by NJ county. 
-    * We found the total cumulative cases for all states as of 7-15-21 in CSV format from USAfacts.
-    * We cleaned the data by filtering for just NJ cases, and dropped all fields except for the County name, County_Num, and cases as of 7-15-21. Most of the other columns represented # of cases as of a different date.
-
+* We wanted to further prove any hypothesis made with population vs June 21 cases by comparing population to the total cumulative cases by NJ county. 
+* We found the total cumulative cases for all states as of 7-15-21 in CSV format from USAfacts.
+* We cleaned the data by filtering for just NJ cases, and dropped all fields except for the County name, County_Num, and cases as of 7-15-21. Most of the other columns represented # of cases as of a different date.
 #### III. Population Data (2019) 
-    * We sourced Census API which includes the total population size by county as of 2019. This was the most up to date free data available.
-    * In preparation for future merging of the data, we formatted the data so that the necessary fields matched the same taxonomy of the CDC Data (example: County, County_Num).
+* We sourced Census API which includes the total population size by county as of 2019. This was the most up to date free data available.
+* In preparation for future merging of the data, we formatted the data so that the necessary fields matched the same taxonomy of the CDC Data (example: County, County_Num).
 
-### ***Merging the Data & Visualizations***
-    * We merged our CDC + USAfacts + Population data, and created a panda dataframe visualization in descending order from largest to smallest population size.
+#### ***Merging the Data & Visualizations***
+* We merged our CDC + USAfacts + Population data, and created a panda dataframe visualization in descending order from largest to smallest population size.
         ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/Consolidated_df.PNG?raw=true)
-    * We outputted linear regression and bar graph visualizations to show correlation between:
+* We outputted linear regression and bar graph visualizations to show correlation between:
 
   ##### A. Population (2019) vs Cases (June 2021)
 
@@ -87,26 +85,17 @@
 *  We sourced the vaccination data in csv format from www.api.covidactnow.org, in time series for each county. The full dataset consists of 11319 entries, for 21 counties, for 2020 and 2021 per day. After we collected the data, we dropped the data not related to the vaccination and the number of cases and also the rows which didn't provide data in the selected fields (NaN values). Final dataset has 2892 entries(rows). Further analyses were performed with the data about actual vaccination initiated, actual vaccination completed, actual new cases, and data pertaining to the identification of the county, and the day when the data was collected. 
 * The term vaccination completed refers to the number of individuals who have received a single dose from a one-dose vaccine course,  or their second dose from a two-dose vaccine course; vaccination initiated refers to the number of individuals who have received only one dose from a two-dose vaccine course. 
 * The vaccination time series data was used to showcase vaccination by date and  actual new cases by date by county in NJ. For the county with population vaccinated at the highest rate (Morris County) and at the lowest rate (Cumberland County) bar graph was selected to provide an outlook at the vaccination data vs actual new cases data.
-
 ![Image](Images/Vaccinaction_Morris.png)
-
 ![Image](Images/Vaccinaction_Cumberland.png)
 
 #### ***Merged Data & Other Visualizations***
-
 * We merged vaccination data with population data and created a stacked bar graph to showcase the  percentage of population vaccinated initiated and vaccination completed, with markers used to point the actual total cases in % of population by county,NJ.  
-
 ![Image](Images/Vaccination_counties_NJ_Jun2021.png) 
-
 * We built a series of linear regression graphs by county in NJ. Our hypothesis assumes that there is a negative linear relationship - when vaccinations increase, the number of cases decreases. To show possible relationship between vaccination and the number of the cases of COVID two counties were chosen based on percentage of vaccinated people of total population in the county (results as in June 2021). 
 1. The county with the highest percentage of vaccinated people - Morris County (67% vaccination iniciated, 61% completed, 10% cases of total population). Linear regression and Pearson's correlation coeffient showcases strong linear relationship by the value of r, 0.867 and coefficient 0.98. However, the number of cases is flat starting at some point, and if it continues in that direction - it means, statistically, that even if we increase the number of the vaccinated people , the number of cases will not increase.
-
-![Image](Images/Linear_regr_Vaccinaction_Morris.png)
-    
-2. The county with the least percentage of vaccinated people - Cumberland County (47% vaccination initiated, 39% vaccination completed and 11.5% cases of total population). Linear regression and Pearson's coefficient showcases a stronger positive linear relationship ( r value is 0.97 and coefficient has value 0.99) than Morris County.  We can also notice the flattening in the data. 
-    
+![Image](Images/Linear_regr_Vaccinaction_Morris.png)    
+2. The county with the least percentage of vaccinated people - Cumberland County (47% vaccination initiated, 39% vaccination completed and 11.5% cases of total population). Linear regression and Pearson's coefficient showcases a stronger positive linear relationship ( r value is 0.97 and coefficient has value 0.99) than Morris County.  We can also notice the flattening in the data.     
 ![Image](Images/Linear_regr_Vaccinaction_Cumberland.png)
-
 
 ### ***Conclusions for Research Q3***
 * Research Q3 - Based on plots and line equations, with correlation coefficients calculated we can say there was a positive linear correlation between vaccination and the number of cases. However, the eventual flattening of the linear regression visualations and the stronger linear relationships for the least vaccinated (Cumberland) vs most vaccinated (Morris) county may indicate that more vaccinations do result in fewer cases over time. However, we should consider broader analysis and functions in this scenario to correctly observe and predict future scenarios. 
