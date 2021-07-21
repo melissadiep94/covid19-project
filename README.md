@@ -53,22 +53,17 @@
 
 2. We outputted linear regression and bar graph visualizations to show correlation between:
 
-  ##### Population (2019) vs Cases (June 2021)
+  ##### A. Population (2019) vs Cases (June 2021)
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/LinRegression_population_vs_num_June21_cases.PNG?raw=true)
 
-   ##### Population (2019) vs Cumulative Cases (as of 7-15-21)
+   ##### B. Population (2019) vs Cumulative Cases (as of 7-15-21)
 
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/Census_population_total_cases_USAfacts.PNG?raw=true)
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/LinRegression_population_vs_total%20YTD%20cases.PNG?raw=true)   
    
-   ###### Conclusion
-   
-   Research Q1 - Bar graphs and linear regressions support that there is strong correlation between population size and cases.
-   * We can see from the bar graphs and consolidated panda dataframe that the most populated counties generally have the most # of cases
-   * Linear regression shows a strong positive correlation between population size and cases
    
    ##### C. Hospitalizations vs Cases (June 2021)
 
@@ -100,7 +95,9 @@
 
 
 ## Conclusion
-1. 
+1. Research Q1 - Bar graphs and linear regressions support that there is strong correlation between population size and cases.
+   * We can see from the bar graphs and consolidated panda dataframe that the most populated counties generally have the most # of cases
+   * Linear regression shows a strong positive correlation between population size and cases
 2. Research Q2 - Bar graphs and linear regressions support that there is a moderate correlation between hospitalizations and cases
    *  We can see from the bar graph and consolidated panda dataframe that counties with the fewest # of cases have the lowest # of hospitalizations (i.e. Salem), however it is a bit unexpected that Passaic has the most # of hospitalizations at 40, since 4 other counties had more # of cases. Other factors must have contributed to Passaic's high # of hospitalizations.
    *  Also, the linear regression shows a moderate correlation with an r-squared of 0.62. Passaic can also be seen as an outlier in this visualization, as this point is the most out of alignment with the line plot. 
