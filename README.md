@@ -34,7 +34,7 @@
     - www.api.covidactnow.org
     - Use: metrics for vaccinations, new cases per day, cumulative cases by NJ county
 
-## Research Qs 1/2 - What is the correlation between population and hospitalizations with # of Covid cases?
+## Research Qs 1/2 - What is the correlation between pop. and hosp. with # of cases?
 
 ### ***Data Sources & Cleaning up the Data***
 #### I. CDC Data (June '21 data) 
