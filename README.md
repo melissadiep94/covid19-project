@@ -15,9 +15,9 @@
 3. What is the correlation between # of vaccinations and # of cases?
     - Hypothesis: negative correlation
 4. What is the correlation between gender and # of cases?
-    - Hypothesis: gender impacts # of cases
+    - Hypothesis: gender affects likelihood of getting Covid
 6. What is the correlation between age and # of cases?
-    - Hypothesis: age impacts # of cases
+    - Hypothesis: age affects likelihood of getting Covid
 
 
 ## Data Sources
