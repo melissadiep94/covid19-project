@@ -80,8 +80,6 @@
 * To make the data size smaller, we filtered for June '21 as our sample for analysis. Per the API documentation provided, the new url became: https://data.cdc.gov/resource/n8mc-b4w4.json?res_state=NJ&case_month=2021-06&$limit=20000. We also dropped fields that were unrelated to the population and hospitalizations research questions. Next, we filtered the hospitalizations field for "Yes". 
 
 ### ***Merging the Data & Visualizations***
-* We merged our CDC + USAfacts + Population data, and created a panda dataframe visualization in descending order from largest to smallest population size.
-        ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/Consolidated_df_v2.PNG?raw=true)
 * We outputted linear regression and bar graph visualizations to show correlation between:
    
    ##### Hospitalizations vs Cases (June 2021)
