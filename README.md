@@ -82,9 +82,7 @@
 * Next, we filtered the hospitalizations field for "Yes". 
 
 ### ***Merging the Data & Visualizations***
-* We outputted linear regression and bar graph visualizations to show correlation between:
-   
-   ##### Hospitalizations vs Cases (June 2021)
+* We outputted linear regression and bar graph visualizations to show correlation between hospitalizations vs cases (June 2021)
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/CDC_hosp_and_num_cases_NJ_June%202021v2.png?raw=true)
 
