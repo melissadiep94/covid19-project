@@ -71,7 +71,7 @@
 ### ***Conclusions for Research Q1***
 * Bar graphs and linear regressions support that there is strong correlation between population size and cases.
    * We can see from the bar graphs and consolidated panda dataframe that the most populated counties generally have the most # of cases
-   * Linear regression shows a strong positive correlation between population size and cases with an r-squared > 0.95. 
+   * Linear regression shows a strong positive correlation between population size and cases with an r-squared > 0.90. 
 
 ## Research Q2 - What is the correlation between hosp. with # of cases?
 
