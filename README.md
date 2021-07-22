@@ -66,7 +66,7 @@
    
    ##### C. Hospitalizations vs Cases (June 2021)
 
-![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/CDC_hosp_and_num_cases_NJ_June%202021.png?raw=true)
+![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/CDC_hosp_and_num_cases_NJ_June%202021v2.png?raw=true)
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/LinRegression_hosp_vs_num_June21_casesv3.PNG?raw=true)
 
