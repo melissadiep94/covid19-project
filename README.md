@@ -78,7 +78,7 @@
 ### ***Data Sources & Cleaning up the Data***
 #### CDC Data (June '21 data) 
 * To make the data size smaller, we filtered for June '21 as our sample for analysis. Per the API documentation provided, the new url became: https://data.cdc.gov/resource/n8mc-b4w4.json?res_state=NJ&case_month=2021-06&$limit=20000. 
-* We also dropped fields that were unrelated to the population and hospitalizations research questions. 
+* We also dropped fields that were unrelated to the hospitalization vs cases research question. 
 * Next, we filtered the hospitalizations field for "Yes". 
 
 ### ***Merging the Data & Visualizations***
