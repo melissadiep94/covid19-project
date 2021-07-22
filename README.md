@@ -5,7 +5,7 @@
 * Team Members: Dasa Simova, Joshua Pohl, Melissa Diep, Shuchi Khandelwal, Paul Shelffo
 
 ## Project Description/Outline
-* Our team wanted to analyze the # of Covid-19 cases in NJ by county, and the correlation that population size, # of hospitalizations, # of vaccinations, gender, and age has had in the # of cases per NJ county.
+* Our team wanted to analyze the # of Covid-19 cases in NJ by county, and the correlation that population size, # of hospitalizations, # of vaccinations, gender, age, and location has had on the # of cases per NJ county.
 
 ## Research Questions & Hypotheses
 1. What is the correlation between population size and # of cases?
