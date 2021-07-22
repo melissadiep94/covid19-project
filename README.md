@@ -16,9 +16,10 @@
     - Hypothesis: negative correlation
 4. What is the correlation between gender and # of cases?
     - Hypothesis: gender affects likelihood of getting Covid
-6. What is the correlation between age and # of cases?
+5. What is the correlation between age and # of cases?
     - Hypothesis: age affects likelihood of getting Covid
-
+6. What effect does location have on the number of cases?
+    -Hypothesis: The closer you are to a major sity, the more cases there are. 
 
 ## Data Sources
 1. CDC Data (June '21 data) - API
@@ -27,13 +28,13 @@
 2. USAfacts Data (7-15-21) - CSV
     - https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/state/new-jersey
     - Use: cumulative # of Covid-19 cases by NJ county
-4. Population Data (2019) - API
+3. Population Data (2019) - API
     - www.census.gov
     - Use: population data by NJ county
-6. Vaccination Data - CSV
+4. Vaccination Data - CSV
     - www.api.covidactnow.org
     - Use: metrics for vaccinations, new cases per day, cumulative cases by NJ county
-7. New Jersey Counties Map 
+5. New Jersey Counties Map 
     -https://njogis-newjersey.opendata.arcgis.com/datasets/county-boundaries-of-nj
     -Use: collect data via a Shapefile in order to visualize the groups of counties we are using. 
 
