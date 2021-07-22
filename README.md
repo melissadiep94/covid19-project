@@ -164,7 +164,7 @@
 ### ***Merged Data & Visualizations***
 
 #### Map Visual Depicting Separate Areas 
-![Image](Images/NJ_Map.png)
+![Image](Images/NJ_Map.PNG)
 
 #### Percentage of population in each area 
 ![Image](Images/Pop_By_Area_Pie.png)
