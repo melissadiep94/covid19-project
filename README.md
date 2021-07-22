@@ -38,7 +38,7 @@
     -https://njogis-newjersey.opendata.arcgis.com/datasets/county-boundaries-of-nj
     -Use: collect data via a Shapefile in order to visualize the groups of counties we are using. 
 
-## Research Qs 1/2 - What is the correlation between pop. and hosp. with # of cases?
+## Research Q1 - What is the correlation between pop. and hosp. with # of cases?
 
 ### ***Data Sources & Cleaning up the Data***
 #### I. CDC Data (June '21 data) 
