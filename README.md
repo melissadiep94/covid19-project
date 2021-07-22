@@ -59,7 +59,7 @@
    ##### B. Population (2019) vs Cumulative Cases (as of 7-15-21)
 
 
-![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/Census_population_total_cases_USAfacts.PNG?raw=true)
+![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/Census_population_total_cases_USAfactsv2.PNG?raw=true)
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/LinRegression_population_vs_total%20YTD%20cases.PNG?raw=true)   
    
