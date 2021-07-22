@@ -117,15 +117,16 @@
 ### ***Merged Data & Other Visualizations***
 * We merged CDC Data with the Census data to show us the total populations per county by age group and gender next to the number of cases per county by age and gender.
 * We took this data frame and found the percentage of cases to the population for each county
-#### Cases as a percentage of Gender population
+#### Cases as a percentage of gender population
 ![Image](Images/gender_cases_percentage.png)
-
+#### Cases as a percentage of age group population
 ![Image](Images/age-groups_cases_percentage.png)
 
 
 * We took the first merged data frame and summed all of the rows for each column so we could have cases and populations for New Jersey that had specified the information we desired as a whole.
-#### Cases as a percentage of the age group population
+#### Cases as a percentage of total NJ gender population
 ![Image](Images/NJ_total_gender_case_percentage.png)
+#### Cases as a percentage of total NJ age group population
 ![Image](Images/NJ_total_age-group_case_percentage.png)
 
 * While looking into a linear regression with gender/age cases to the population we saw a similar trend that we did in question one where case numbers and population have a high correlation.
