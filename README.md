@@ -160,10 +160,14 @@
 ####  2. CDC Data API (Cases Categorized by County)
 * In order to See if location had an effect on the number of cases, we grouped the number of cases in each county using the same groups we did with the population data. We pulled the data out, separated it by state and then county in order to get what we needed. We then compared the number of cases in each area to the number of people in each area. 
 
+
 ### ***Merged Data & Visualizations***
 #### Percentage of population in each area 
+![Image](Images/Pop_By_Area_Pie.png)
 
 #### Percentage of population in each area 
+![Image](Images/Cases_By_Area_Pie.png)
+
 
 
 
