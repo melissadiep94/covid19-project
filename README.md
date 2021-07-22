@@ -35,8 +35,8 @@
     - www.api.covidactnow.org
     - Use: metrics for vaccinations, new cases per day, cumulative cases by NJ county
 5. New Jersey Counties Map 
-    -https://njogis-newjersey.opendata.arcgis.com/datasets/county-boundaries-of-nj
-    -Use: collect data via a Shapefile in order to visualize the groups of counties we are using. 
+    - https://njogis-newjersey.opendata.arcgis.com/datasets/county-boundaries-of-nj
+    - Use: collect data via a Shapefile in order to visualize the groups of counties we are using. 
 
 ## Research Q1 - What is the correlation between pop. with # of cases?
 
