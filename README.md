@@ -41,13 +41,13 @@
 ## Research Q1 - What is the correlation between pop. with # of cases?
 
 ### ***Data Sources & Cleaning up the Data***
-#### I. CDC Data (June '21 data) 
+#### 1. CDC Data (June '21 data) 
 * To make the data size smaller, we filtered for June '21 as our sample for analysis. Per the API documentation provided, the new url became: https://data.cdc.gov/resource/n8mc-b4w4.json?res_state=NJ&case_month=2021-06&$limit=20000. 
-#### II. USAfacts Data (7-15-21) 
+#### 2. USAfacts Data (7-15-21) 
 * We wanted to further prove any hypothesis made with population vs June 21 cases by comparing population to the total cumulative cases by NJ county. 
 * We found the total cumulative cases for all states as of 7-15-21 in CSV format from USAfacts.
 * We cleaned the data by filtering for just NJ cases, and dropped all fields except for the County name, County_Num, and cases as of 7-15-21. Most of the other columns represented # of cases as of a different date.
-#### III. Population Data (2019) 
+#### 3. Population Data (2019) 
 * We sourced Census API which includes the total population size by county as of 2019. This was the most up to date free data available.
 * In preparation for future merging of the data, we formatted the data so that the necessary fields matched the same taxonomy of the CDC Data (example: County, County_Num).
 
