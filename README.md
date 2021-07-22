@@ -19,7 +19,7 @@
 5. What is the correlation between age and # of cases?
     - Hypothesis: age affects likelihood of getting Covid
 6. What effect does location have on the number of cases?
-    -Hypothesis: The closer you are to a major sity, the more cases there are. 
+    - Hypothesis: The closer you are to a major sity, the more cases there are. 
 
 ## Data Sources
 1. CDC Data (June '21 data) - API
