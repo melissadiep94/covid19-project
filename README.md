@@ -42,7 +42,7 @@
 
 ### ***Data Sources & Cleaning up the Data***
 #### I. CDC Data (June '21 data) 
-* To make the data size smaller, we filtered for June '21 as our sample for analysis. Per the API documentation provided, the new url became: https://data.cdc.gov/resource/n8mc-b4w4.json?res_state=NJ&case_month=2021-06&$limit=20000. We also dropped fields that were unrelated to the population and hospitalizations research questions. Next, we filtered the hospitalizations field for "Yes". 
+* To make the data size smaller, we filtered for June '21 as our sample for analysis. Per the API documentation provided, the new url became: https://data.cdc.gov/resource/n8mc-b4w4.json?res_state=NJ&case_month=2021-06&$limit=20000. 
 #### II. USAfacts Data (7-15-21) 
 * We wanted to further prove any hypothesis made with population vs June 21 cases by comparing population to the total cumulative cases by NJ county. 
 * We found the total cumulative cases for all states as of 7-15-21 in CSV format from USAfacts.
@@ -67,19 +67,32 @@
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/LinRegression_population_vs_total%20YTD%20cases.PNG?raw=true)   
    
+
+### ***Conclusions for Research Q1***
+* Bar graphs and linear regressions support that there is strong correlation between population size and cases.
+   * We can see from the bar graphs and consolidated panda dataframe that the most populated counties generally have the most # of cases
+   * Linear regression shows a strong positive correlation between population size and cases with an r-squared > 0.95. 
+
+## Research Q2 - What is the correlation between hosp. with # of cases?
+
+### ***Data Sources & Cleaning up the Data***
+#### CDC Data (June '21 data) 
+* To make the data size smaller, we filtered for June '21 as our sample for analysis. Per the API documentation provided, the new url became: https://data.cdc.gov/resource/n8mc-b4w4.json?res_state=NJ&case_month=2021-06&$limit=20000. We also dropped fields that were unrelated to the population and hospitalizations research questions. Next, we filtered the hospitalizations field for "Yes". 
+
+### ***Merging the Data & Visualizations***
+* We merged our CDC + USAfacts + Population data, and created a panda dataframe visualization in descending order from largest to smallest population size.
+        ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/Consolidated_df_v2.PNG?raw=true)
+* We outputted linear regression and bar graph visualizations to show correlation between:
    
-   ##### C. Hospitalizations vs Cases (June 2021)
+   ##### Hospitalizations vs Cases (June 2021)
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/CDC_hosp_and_num_cases_NJ_June%202021v2.png?raw=true)
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/LinRegression_hosp_vs_num_June21_casesv3.PNG?raw=true)
 
 
-### ***Conclusions for Research Q1 & Q2***
-* Research Q1 - Bar graphs and linear regressions support that there is strong correlation between population size and cases.
-   * We can see from the bar graphs and consolidated panda dataframe that the most populated counties generally have the most # of cases
-   * Linear regression shows a strong positive correlation between population size and cases with an r-squared > 0.95. 
-* Research Q2 - Bar graphs and linear regressions support that there is a moderate correlation between hospitalizations and cases
+### ***Conclusions for Research Q2***
+* Bar graphs and linear regressions support that there is a moderate correlation between hospitalizations and cases
    - We can see from the bar graph and consolidated panda dataframe that counties with the fewest # of cases have the lowest # of hospitalizations (i.e. Salem), however it is a bit unexpected that Passaic has one of the most # of hospitalizations at 63, since 5 other counties had more # of cases. Other factors must have contributed to Passaic's high # of hospitalizations. It is also unexpected that Monmouth with most # of cases as relatively low # of hospitalizations. This may be attributed to timing of each county's collection of the cases/hospitalizations data. Perhaps not all cases/hospitalizations are reflected yet in this data. 
    - Also, the linear regression shows a moderate correlation with an r-squared of 0.67. Passaic/Monmouth can also be seen as an outliers in this visualization, as their points are the most out of alignment with the line plot. 
 
