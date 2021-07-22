@@ -49,7 +49,7 @@
 
 ### ***Merging the Data & Visualizations***
 * We merged our CDC + USAfacts + Population data, and created a panda dataframe visualization in descending order from largest to smallest population size.
-        ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/Consolidated_df.PNG?raw=true)
+        ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/Consolidated_df_v2.PNG?raw=true)
 * We outputted linear regression and bar graph visualizations to show correlation between:
 
   ##### A. Population (2019) vs Cases (June 2021)
