@@ -54,7 +54,7 @@
 
   ##### A. Population (2019) vs Cases (June 2021)
 
-![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/LinRegression_population_vs_num_June21_cases.PNG?raw=true)
+![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/LinRegression_population_vs_num_June21_casesv2.PNG?raw=true)
 
    ##### B. Population (2019) vs Cumulative Cases (as of 7-15-21)
 
@@ -68,7 +68,7 @@
 
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/CDC_hosp_and_num_cases_NJ_June%202021.png?raw=true)
 
-![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/LinRegression_hosp_vs_num_June21_casesv2.PNG?raw=true)
+![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/LinRegression_hosp_vs_num_June21_casesv3.PNG?raw=true)
 
 
 ### ***Conclusions for Research Q1 & Q2***
