@@ -145,3 +145,15 @@
 ### ***Conclusions for Research Q5***
 * Based on the analysis of age group cases to the respective population we discovered that people between the ages of 18 and 49 have a higher percentage of Covid-19 cases followed by people 50 to 64, 65 and over, and under 18, respectively. Although this was the case for New Jersey as a whole and most counties, this was not the case for Hudson County where people 50 to 64 had a higher percentage of cases. We also found that in Hunterdon County and Sussex County, people under 18 had a higher percentage of cases than people 65 and older but were still behind the cases in the 18 to 49 and 50 to 64 age groups. From the analysis, we were able to think of possible reasons as to why the cases numbers came out the way they did. 
 * For instance, people between 18 and 49 and 50 to 64 could have a higher percentage of cases because they are actively in the workforce (out of high school but not retired) and while there are people who can work remotely there are also people that cannot and have to be in contact with people daily. The reasoning of having to be around people daily can also explain why people 65 and older are more likely to contract Covid than people under 18 because people 65 and older could be in assisted living homes or in contact with people who help them daily. While doing a linear regression of the age group cases to the population we found that it also follows the trend found in question one where a higher population for any age group correlates in a higher number of cases.
+
+## Research Question 6 -
+###  What effect does location have on the number of cases?
+
+### ***Data Sources & Cleaning the Data***
+####  1. USA Facts CSV (Populations Categorized by County)
+* In order to understand how populated NJ was, we took information from the census and broke down the population based on county. From there, we separated the populations into two areas: Area 1 & Area 2. Area 1 encompases the counties that are closest to NYC: Bergen, Passaic, Hudson, Essex, Union, Middlesex, & Monmouth. Area 2 is the rest of the state. 
+
+####  2. CDC Data API (Cases Categorized by County)
+* In order to See if location had an effect on the number of cases, we grouped the number of cases in each county using the same groups we did with the population data. We pulled the data out, separated it by state and then county in order to get what we needed. We then compared the number of cases in each area to the number of people in each area. 
+
+-
