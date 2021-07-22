@@ -119,7 +119,7 @@
 * To clean the data we had to match the column names and format the county code column to have the complete county and state code to match the code given by the 
 ####  2. Census API (Total Population, Gender & Age-group Population)
 * We pulled data created by the census bureau using the Census API and filtered the data to show the total population by county for New Jersey
-* We also pulled data from another Census API that contained population data for gender and several age groups for each county in New Jersey.
+* We also pulled data from another Census API that contained population data for gender and several age groups of each county in New Jersey.
 * To clean the data to match the categories in the CDC Data we had to get rid of unwanted age groups and combined others to get the population of people between 18 and 49 and 50 to 64 in each county. We also had to format the county code column to have the complete county and do a count() function to get the total number of cases with age and gender information for each county by age and by gender.
 
 ### ***Merged Data & Other Visualizations***
