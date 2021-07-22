@@ -173,7 +173,8 @@
 ![Image](Images/Cases_By_Area_Pie.png)
 
 
-
-
-
 ### ***Conclusions for Research Q6***
+
+* Based on these two Pie charts we can see that Area 1, while a much smaller portion of NJ, has many more people in a smaller area. Approximately 1,000,000 more people in that area. While the second are is much more spread out. If we look at the percentage of cases in both areas we can see that most of the cases were in Area 1, despite the fact that it was a much smaller area.
+
+*Area 1 is likely more crowded due to the fact that it is so close to NYC, which is where people in those areas would commute to. Therefore, we can argue that as we move away from major hub cities, such as NYC in this case, we see less cases. However, the fact that we're seeing less cases in these areas may not just be limited to the fact that they're further away from NYC. It could also have to do with the fact that there are more people living in these counties. Just the fact that there are so many more people in Area 1 than Area 2 is compelling in explaining why NJ may have had so many cases. Having so many people in one area going back and forth to an even more corwed and populated area simply increases the chances of exposure, which increases the chances of contracting the virus. 
