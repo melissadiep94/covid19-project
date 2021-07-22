@@ -108,6 +108,7 @@
 * Research Q3 - Based on plots and line equations, with correlation coefficients calculated we can say there was a positive linear correlation between vaccination and the number of cases. However, the eventual flattening of the linear regression visualizations and the stronger linear relationships for the least vaccinated (Cumberland) vs most vaccinated (Morris) county may indicate that more vaccinations do result in fewer cases over time. However, we should consider broader analysis and functions in this scenario to correctly observe and predict future scenarios. 
 
 
+
 ## Research Question 4 & 5 -  
 ### * Question 4: Are males or females more likely to contract Covid-19?
 ### * Question 5: What age group is more likely to contract Covid-19? Under 18, 18-49, 50-64, or 65+? Are there any counties that show something different from the norm?
