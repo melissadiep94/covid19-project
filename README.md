@@ -100,3 +100,13 @@
 ### ***Conclusions for Research Q3***
 * Research Q3 - Based on plots and line equations, with correlation coefficients calculated we can say there was a positive linear correlation between vaccination and the number of cases. However, the eventual flattening of the linear regression visualations and the stronger linear relationships for the least vaccinated (Cumberland) vs most vaccinated (Morris) county may indicate that more vaccinations do result in fewer cases over time. However, we should consider broader analysis and functions in this scenario to correctly observe and predict future scenarios. 
 
+
+## Research Question 3 - What is the correlation between # of vaccinations with # of cases?
+
+### ***Data Sources & Cleaning the Data***
+
+
+### ***Merged Data & Other Visualizations***
+
+
+### ***Conclusions for Research Q3***
