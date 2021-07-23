@@ -108,15 +108,29 @@
 ![Image](Images/Vaccination_counties_NJ_Jun2021.png) 
 * We built a series of linear regression graphs by county in NJ. Our hypothesis assumes that there is a negative linear relationship - when vaccinations increase, the number of cases decreases. To show possible relationship between vaccination and the number of the cases of COVID two counties were chosen based on percentage of vaccinated people of total population in the county (results as in June 2021). 
 
-    ![Image](Images/Vaccination_vs_Cases_in_pct_NJ.png)
+ Linear regression was used for total vaccinaction vs total vaccination. However, based the results, a different function should be used to explain the correlation and trend in this case better. 
 
 1. The county with the highest percentage of vaccinated people - Morris County (67% vaccination initiated, 61% completed, 10% cases of total population). Linear regression and Pearson's correlation coeffient showcases strong linear relationship by the value of r, 0.867 and coefficient 0.98. However, the number of cases is flat starting at some point, and if it continues in that direction - it means, statistically, that even if we increase the number of the vaccinated people , the number of cases will not increase.
+
 ![Image](Images/Linear_regr_Vaccinaction_Morris.png)    
+
 2. The county with the least percentage of vaccinated people - Cumberland County (47% vaccination initiated, 39% vaccination completed and 11.5% cases of total population). Linear regression and Pearson's coefficient showcases a stronger positive linear relationship ( r value is 0.97 and coefficient has value 0.99) than Morris County.  We can also notice the flattening in the data.     
+
 ![Image](Images/Linear_regr_Vaccinaction_Cumberland.png)
 
+Linear regression was then used for vaccination and daily new cases to display the relationship.  
+
+Morris County
+
+![Image](Images/Linear_regr_Vaccinaction_Morris_Daily_Cases.png)
+
+![Image](Images/Linear_regr_Vaccinaction_Cumberland_Daily_Cases.png) 
+
+
 ### ***Conclusions for Research Q3***
-* Research Q3 - Based on plots and line equations, with correlation coefficients calculated we can say there was a positive linear correlation between vaccination and the number of cases. However, the eventual flattening of the linear regression visualizations and the stronger linear relationships for the least vaccinated (Cumberland) vs most vaccinated (Morris) county may indicate that more vaccinations do result in fewer cases over time. However, we should consider broader analysis and functions in this scenario to correctly observe and predict future scenarios. 
+* Research Q3 - Based on plots and line equations, with correlation coefficients calculated we can say there was a positive linear correlation between vaccination and the total number of cases. However, the eventual flattening of the linear regression visualizations and the stronger linear relationships for the least vaccinated (Cumberland) vs most vaccinated (Morris) county may indicate that more vaccinations do result in fewer cases over time. However, we should consider broader analysis and functions in this scenario to correctly observe and predict future scenarios. 
+
+In linear regression where the total number of vaccinated people vs number of daily cases is in relation for the plot, there is a correlation between these two variables. With more vaccinated people the number of cases decreases, and the negative linear relationship in our hypothesis was confirmed. For all counties in NJ the vaccination had impact to lower the daily number of cases, with prediction to stay in negative linear correlation.  
 
 
 
