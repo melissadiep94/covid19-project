@@ -1,6 +1,6 @@
 ![alt text](https://github.com/melissadiep94/covid19-project/blob/main/Images/Covid_image2.png?raw=true)
 
-## Project Title: Analysis of # of Covid-19 Cases vs. Several Different Factors
+## Project Title: Analysis of # of Covid-19 Cases in NJ by County vs. Several Different Factors
 * Name of Group: Pandemic Solvers
 * Team Members: Dasa Simova, Joshua Pohl, Melissa Diep, Shuchi Khandelwal, Paul Shelffo
 
